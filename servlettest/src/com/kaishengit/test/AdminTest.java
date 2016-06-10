@@ -12,7 +12,7 @@ public class AdminTest {
     @Test
     public void saveTest(){
         Admin admin = new Admin();
-        admin.setName("lili");
+        admin.setName("lucy");
         admin.setPassword("12345");
         dao.saveAdmin(admin);
     }

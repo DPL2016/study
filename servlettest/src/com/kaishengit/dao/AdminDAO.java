@@ -1,15 +1,10 @@
 package com.kaishengit.dao;
 
 import com.kaishengit.entity.Admin;
-import com.kaishengit.exception.DataAccessException;
-import com.kaishengit.util.ConnectionManager;
 import com.kaishengit.util.DBHelp;
-import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.List;
 
 public class AdminDAO {
@@ -33,4 +28,5 @@ public class AdminDAO {
         String sql = "select*from admin";
         return DBHelp.query(sql,new BeanListHandler<>(Admin.class));
     }
+
 }
