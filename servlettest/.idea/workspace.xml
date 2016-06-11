@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64570dcf-da89-494f-aaea-747e7e51e13e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kaishengit/util/DBHelp2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kaishengit/test/UserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/servlettest/com/kaishengit/dao/UserDAO.class" afterPath="$PROJECT_DIR$/out/production/servlettest/com/kaishengit/dao/UserDAO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kaishengit/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/com/kaishengit/dao/UserDAO.java" />
     </list>
     <ignored path="servlettest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,18 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DbUtilsTestCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kaishengit/test/DbUtilsTestCase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdminDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kaishengit/dao/AdminDAO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,21 +40,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBHelp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kaishengit/util/DBHelp.java">
+      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kaishengit/test/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-              <folding />
+            <state vertical-scroll-proportion="1.3906977">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBHelp2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/kaishengit/util/DBHelp2.java">
+      <file leaf-file-name="AdminTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kaishengit/test/AdminTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73953485">
-              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,17 +68,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/kaishengit/dao/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbUtilsTestUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kaishengit/test/DbUtilsTestUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
+              <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/com/kaishengit/entity/Admin.java" />
         <option value="$PROJECT_DIR$/src/com/kaishengit/test/DbUtilsTestCase.java" />
         <option value="$PROJECT_DIR$/src/com/kaishengit/exception/MyException.java" />
-        <option value="$PROJECT_DIR$/src/com/kaishengit/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/com/kaishengit/exception/DataAccessException.java" />
         <option value="$PROJECT_DIR$/src/com/kaishengit/util/DBHelp.java" />
         <option value="$PROJECT_DIR$/src/com/kaishengit/dao/AdminDAO.java" />
@@ -134,6 +115,8 @@
         <option value="$PROJECT_DIR$/src/com/kaishengit/util/ConnectionManager.java" />
         <option value="$PROJECT_DIR$/src/com/kaishengit/test/DbUtilsTestUser.java" />
         <option value="$PROJECT_DIR$/src/com/kaishengit/util/DBHelp2.java" />
+        <option value="$PROJECT_DIR$/src/com/kaishengit/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/kaishengit/test/UserTest.java" />
       </list>
     </option>
   </component>
@@ -401,8 +384,8 @@
       <recent name="E:\webtest\idea\servlettest\web\WEB-INF\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DbUtilsTestUser.queryUserName">
-    <configuration default="false" name="DbUtilsTestUser.queryAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserTest.queryAllTest">
+    <configuration default="false" name="UserTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.kaishengit.test.*" />
@@ -413,8 +396,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
-      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.DbUtilsTestUser" />
-      <option name="METHOD_NAME" value="queryAllUser" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.UserTest" />
+      <option name="METHOD_NAME" value="addTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -428,7 +411,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DbUtilsTestUser.queryUserByIdToMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="UserTest.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.kaishengit.test.*" />
@@ -439,8 +422,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
-      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.DbUtilsTestUser" />
-      <option name="METHOD_NAME" value="queryUserByIdToMap" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.UserTest" />
+      <option name="METHOD_NAME" value="removeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -454,7 +437,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DbUtilsTestUser.queryUserToMapList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="UserTest.modifyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.kaishengit.test.*" />
@@ -465,8 +448,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
-      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.DbUtilsTestUser" />
-      <option name="METHOD_NAME" value="queryUserToMapList" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.UserTest" />
+      <option name="METHOD_NAME" value="modifyTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -480,7 +463,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DbUtilsTestUser.countUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="UserTest.queryOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.kaishengit.test.*" />
@@ -491,8 +474,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
-      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.DbUtilsTestUser" />
-      <option name="METHOD_NAME" value="countUser" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.UserTest" />
+      <option name="METHOD_NAME" value="queryOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -506,7 +489,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DbUtilsTestUser.queryUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="UserTest.queryAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.kaishengit.test.*" />
@@ -517,8 +500,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
-      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.DbUtilsTestUser" />
-      <option name="METHOD_NAME" value="queryUserName" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.UserTest" />
+      <option name="METHOD_NAME" value="queryAllTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1029,19 +1012,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat7" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DbUtilsTestUser.queryAllUser" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DbUtilsTestUser.queryUserByIdToMap" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DbUtilsTestUser.queryUserToMapList" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DbUtilsTestUser.countUser" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.DbUtilsTestUser.queryUserName" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserTest.addTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserTest.removeTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserTest.modifyTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserTest.queryOneTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserTest.queryAllTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DbUtilsTestUser.queryUserName" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DbUtilsTestUser.countUser" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DbUtilsTestUser.queryUserToMapList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DbUtilsTestUser.queryUserByIdToMap" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DbUtilsTestUser.queryAllUser" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserTest.queryAllTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserTest.queryOneTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserTest.modifyTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserTest.removeTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserTest.addTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1059,47 +1042,47 @@
       <workItem from="1465352753363" duration="3037000" />
       <workItem from="1465449356036" duration="9470000" />
       <workItem from="1465523276197" duration="7021000" />
-      <workItem from="1465610216225" duration="6794000" />
+      <workItem from="1465610216225" duration="8991000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DbUtilsTestUser_countUser - 2016.06.11 at 11h 32m 22s.xml">
-      <configuration name="DbUtilsTestUser.countUser" configurationId="JUnit" />
+    <history-entry file="UserTest_modifyTest - 2016.06.11 at 12h 14m 14s.xml">
+      <configuration name="UserTest.modifyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DbUtilsTestUser_queryAllUser - 2016.06.11 at 10h 54m 10s.xml">
-      <configuration name="DbUtilsTestUser.queryAllUser" configurationId="JUnit" />
+    <history-entry file="UserTest_modifyTest - 2016.06.11 at 12h 18m 45s.xml">
+      <configuration name="UserTest.modifyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DbUtilsTestUser_queryUserById - 2016.06.11 at 10h 49m 57s.xml">
-      <configuration name="DbUtilsTestUser.queryUserById" configurationId="JUnit" />
+    <history-entry file="UserTest_modifyTest - 2016.06.11 at 12h 19m 13s.xml">
+      <configuration name="UserTest.modifyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DbUtilsTestUser_queryUserById - 2016.06.11 at 10h 50m 26s.xml">
-      <configuration name="DbUtilsTestUser.queryUserById" configurationId="JUnit" />
+    <history-entry file="UserTest_queryAllTest - 2016.06.11 at 12h 31m 13s.xml">
+      <configuration name="UserTest.queryAllTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DbUtilsTestUser_queryUserByIdToMap - 2016.06.11 at 11h 15m 06s.xml">
-      <configuration name="DbUtilsTestUser.queryUserByIdToMap" configurationId="JUnit" />
+    <history-entry file="UserTest_queryOneTest - 2016.06.11 at 12h 23m 55s.xml">
+      <configuration name="UserTest.queryOneTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DbUtilsTestUser_queryUserByIdToMap - 2016.06.11 at 11h 16m 09s.xml">
-      <configuration name="DbUtilsTestUser.queryUserByIdToMap" configurationId="JUnit" />
+    <history-entry file="UserTest_queryOneTest - 2016.06.11 at 12h 25m 21s.xml">
+      <configuration name="UserTest.queryOneTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DbUtilsTestUser_queryUserName - 2016.06.11 at 11h 37m 35s.xml">
-      <configuration name="DbUtilsTestUser.queryUserName" configurationId="JUnit" />
+    <history-entry file="UserTest_queryOneTest - 2016.06.11 at 12h 25m 49s.xml">
+      <configuration name="UserTest.queryOneTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DbUtilsTestUser_queryUserToMapList - 2016.06.11 at 11h 25m 28s.xml">
-      <configuration name="DbUtilsTestUser.queryUserToMapList" configurationId="JUnit" />
+    <history-entry file="UserTest_queryOneTest - 2016.06.11 at 12h 26m 32s.xml">
+      <configuration name="UserTest.queryOneTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DbUtilsTestUser_queryUserToMapList - 2016.06.11 at 11h 25m 53s.xml">
-      <configuration name="DbUtilsTestUser.queryUserToMapList" configurationId="JUnit" />
+    <history-entry file="UserTest_queryOneTest - 2016.06.11 at 12h 27m 01s.xml">
+      <configuration name="UserTest.queryOneTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DbUtilsTestUser_queryUserToMapList - 2016.06.11 at 11h 26m 20s.xml">
-      <configuration name="DbUtilsTestUser.queryUserToMapList" configurationId="JUnit" />
+    <history-entry file="UserTest_queryOneTest - 2016.06.11 at 12h 28m 11s.xml">
+      <configuration name="UserTest.queryOneTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30341000" />
+    <option name="totallyTimeSpent" value="32538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1111,7 +1094,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27602524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27602524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17841409" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1285,57 +1268,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/test/AdminTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.058091287">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kaishengit/entity/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09256198">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4446281">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/exception/DataAccessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32396695">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1367,44 +1303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/dao/AdminDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/test/DbUtilsTestUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/test/DbUtilsTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kaishengit/util/DBHelp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1415,8 +1313,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kaishengit/util/DBHelp2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73953485">
+        <state vertical-scroll-proportion="0.0">
           <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/test/DbUtilsTestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6511628">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/exception/DataAccessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3255814">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/test/DbUtilsTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6279069">
+          <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6186047">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/dao/AdminDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35572138">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/test/AdminTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaishengit/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3906977">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
