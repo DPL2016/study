@@ -24,6 +24,7 @@ public class ConnectionManager {
         dataSource.setUsername(prop.getProperty("jdbc.username"));
         dataSource.setPassword(prop.getProperty("jdbc.password"));
 
+
         dataSource.setInitialSize(Integer.parseInt(prop.getProperty("jdbc.initsize","5")));
         dataSource.setMaxTotal(Integer.parseInt(prop.getProperty("jdbc.maxsize","15")));
         dataSource.setMaxWaitMillis(Integer.parseInt(prop.getProperty("jdbc.maxwait","5000")));
