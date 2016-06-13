@@ -13,8 +13,8 @@ import java.io.IOException;
 import java.util.UUID;
 
 @WebServlet("/pay")
-public class payServlet extends HttpServlet {
-    Logger logger = LoggerFactory.getLogger(payServlet.class);
+public class PayServlet extends HttpServlet {
+    Logger logger = LoggerFactory.getLogger(PayServlet.class);
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String token = UUID.randomUUID().toString();
@@ -34,7 +34,7 @@ public class payServlet extends HttpServlet {
             logger.info("获取成功");
             String money = req.getParameter("money");
             logger.warn("扣除金额{}成功",money);
-            req.getRequestDispatcher("/WEB-INF/views/paysuc.jsp").forward(req,resp);
+            req.getRequestDispatcher("/WEB-INF/views/PaysucServlet.jsp").forward(req,resp);
         }else {
             logger.warn("表单重复提交");
             req.getRequestDispatcher("/WEB-INF/views/payerr.jsp").forward(req,resp);
