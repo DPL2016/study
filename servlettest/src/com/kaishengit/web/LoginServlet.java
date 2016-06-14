@@ -1,5 +1,6 @@
 package com.kaishengit.web;
 
+import com.kaishengit.dao.AdminDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,9 +25,13 @@ public class LoginServlet  extends HttpServlet {
         if(captcha!=null&&captcha.equalsIgnoreCase(sessionCaptcha)){
             String username = req.getParameter("username");
             String password = req.getParameter("password");
-            logger.debug("{}登录成功",username);
+            AdminDAO dao = new AdminDAO();
+            if (dao.find(username,password)!=null){
+                logger.debug("{}登录成功",username);
+                resp.sendRedirect("/home");
+            }
         }else {
-            logger.warn("验证码错误");
+            logger.warn("验证码或密码错误");
             resp.sendRedirect("/login?code=1001");
         }
     }

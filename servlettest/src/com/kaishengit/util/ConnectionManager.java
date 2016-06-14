@@ -15,7 +15,7 @@ public class ConnectionManager {
     static {
         Properties prop = new Properties();
         try {
-            prop.load(ConnectionManager.class.getClassLoader().getResourceAsStream("etc/config.properties"));
+            prop.load(ConnectionManager.class.getClassLoader().getResourceAsStream("config.properties"));
         } catch (IOException e) {
             throw new DataAccessException("读取config.propreties异常", e);
 
@@ -32,9 +32,10 @@ public class ConnectionManager {
         dataSource.setMinIdle(Integer.parseInt(prop.getProperty("jdbc.minidle", "10")));
     }
 
-    public static DataSource getDataSource(){
+    public static DataSource getDataSource() {
         return dataSource;
     }
+
     public static Connection getConnection() throws DataAccessException {
 
         try {
