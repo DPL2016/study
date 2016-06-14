@@ -58,7 +58,7 @@
         </c:when>
     </c:choose>
 
-    <form class="form-signin" action="/login" method="post">
+    <form class="form-signin" action="/login" method="post" id="loginform">
         <label for="inputText" class="sr-only">用户名</label>
         <input type="text" id="inputText" name="username" class="form-control" placeholder="用户名" required autofocus>
         <label for="inputPassword" class="sr-only">密码</label>
@@ -66,15 +66,25 @@
         <label for="inputText" class="sr-only">验证码</label>
         <a href="javascript:" id="modifycaptcha"><img id="captcha" src="/pic.png"></a>
         <input type="text" id="inputCaptcha" name="captcha" class="form-control" placeholder="验证码" required>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">登录</button>
+        <button class="btn btn-lg btn-primary btn-block" type="button" id="buttonbtn">登录</button>
     </form>
 
 </div>
 <script src="/static/js/jquery-1.11.3.min.js"></script>
+<script src="/static/js/cryptojs/core.js"></script>
+<script src="/static/js/cryptojs/md5-min.js"></script>
+
 <script>
     $(function(){
         $("#modifycaptcha").click(function(){
             $("#captcha").attr("src","/pic.png?t="+new Date().getTime())
+        });
+        $("#buttonbtn").click(function(){
+            var pwd = $("#inputPassword").val();
+            pwd = CryptoJS.MD5(pwd);
+            $("#inputPassword").val(pwd);
+            console.log(pwd);
+            $("#loginform").submit();
         });
     });
 </script>
