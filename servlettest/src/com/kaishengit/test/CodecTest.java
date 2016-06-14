@@ -11,6 +11,15 @@ public class CodecTest {
         String salt = "qwerirux";
         password = DigestUtils.md5Hex(password+salt);
         System.out.println(password);
-        
+
     }
+
+    //sha-1 测试
+    public void  shaTest(){
+        String password = "1231232";
+        String salt = "qowejiewop";
+        password = DigestUtils.sha1Hex(password+salt);
+        System.out.println(password);
+    }
+    
 }
