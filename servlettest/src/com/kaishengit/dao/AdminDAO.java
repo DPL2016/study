@@ -28,9 +28,9 @@ public class AdminDAO {
         String sql = "select*from admin";
         return DBHelp.query(sql,new BeanListHandler<>(Admin.class));
     }
-    public Admin find(String name,String password){
-        String sql = "select*from admin where name=? and password=?";
-        return DBHelp.query(sql,new BeanHandler<>(Admin.class),name,password);
+    public Admin find(String name){
+        String sql = "select*from admin where name=?";
+        return DBHelp.query(sql,new BeanHandler<>(Admin.class),name);
     }
 
 }

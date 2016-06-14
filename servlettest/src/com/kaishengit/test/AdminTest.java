@@ -37,10 +37,4 @@ public class AdminTest {
         Assert.assertEquals(list.size(),2);
     }
 
-    @Test
-    public void findTest(){
-        Admin admin = dao.find("tom","123");
-        Assert.assertNotNull(admin);
-    }
-
 }

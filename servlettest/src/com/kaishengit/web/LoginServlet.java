@@ -1,6 +1,8 @@
 package com.kaishengit.web;
 
 import com.kaishengit.dao.AdminDAO;
+import com.kaishengit.entity.Admin;
+import com.kaishengit.service.AdminService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,8 +27,9 @@ public class LoginServlet  extends HttpServlet {
         if(captcha!=null&&captcha.equalsIgnoreCase(sessionCaptcha)){
             String username = req.getParameter("username");
             String password = req.getParameter("password");
-            AdminDAO dao = new AdminDAO();
-            if (dao.find(username,password)!=null){
+            AdminService adminService = new AdminService();
+            Admin admin = adminService.login(username,password);
+            if (admin!=null){
                 logger.debug("{}登录成功",username);
                 resp.sendRedirect("/home");
             }
