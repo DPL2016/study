@@ -21,4 +21,8 @@ public class AdminDao {
         String sql = "select*from admin where id =?";
         return DBHelp.query(sql,new BeanHandler<>(Admin.class),id);
     }
+    public Admin queryAdminByName(String name){
+        String sql = "select*from admin where name =?";
+        return DBHelp.query(sql,new BeanHandler<>(Admin.class),name);
+    }
 }

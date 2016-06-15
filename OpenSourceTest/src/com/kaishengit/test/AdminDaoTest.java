@@ -2,6 +2,7 @@ package com.kaishengit.test;
 
 import com.kaishengit.dao.AdminDao;
 import com.kaishengit.entity.Admin;
+import com.kaishengit.service.AdminService;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -33,6 +34,13 @@ public class AdminDaoTest {
     @Test
     public void queryAdminByIdTest() {
         Admin admin = dao.queryAdminById(6);
+        Assert.assertNotNull(admin);
+    }
+
+    @Test
+    public void AdminServiceTest(){
+        AdminService adminService = new AdminService();
+       Admin admin =  adminService.login("lucy","11111");
         Assert.assertNotNull(admin);
     }
 }
