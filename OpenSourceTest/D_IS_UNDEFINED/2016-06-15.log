@@ -1,0 +1,2 @@
+06-15 14:33:16.166 [main] DEBUG c.kaishengit.util.ConnectionManager - 加载config.properties文件成功
+06-15 14:33:17.093 [main] DEBUG com.kaishengit.util.DBHelp - sqlselect*from admin where id =?运行正常

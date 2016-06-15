@@ -5,6 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-    <h3>支付${param.money}元成功</h3>
+<h3>支付失败！</h3>
 </body>
 </html>
