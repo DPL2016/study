@@ -23,9 +23,9 @@ public class PatchacaServlet extends HttpServlet {
         service.setColorFactory(new SingleColorFactory(Color.blue));
         service.setFilterFactory(new CurvesRippleFilterFactory(service.getColorFactory()));
         OutputStream outputStream = resp.getOutputStream();
-        String patchaca = EncoderHelper.getChallangeAndWriteImage(service,"png",outputStream);
+        String pat = EncoderHelper.getChallangeAndWriteImage(service,"png",outputStream);
         HttpSession session = req.getSession();
-        session.setAttribute("patchaca",patchaca);
+        session.setAttribute("pat",pat);
         outputStream.flush();
         outputStream.close();
     }

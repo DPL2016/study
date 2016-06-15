@@ -2,8 +2,11 @@ package com.kaishengit.service;
 
 import com.kaishengit.dao.AdminDao;
 import com.kaishengit.entity.Admin;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class AdminService {
+   private Logger logger = LoggerFactory.getLogger(AdminService.class);
     /**
      * 用户登录
      * @param name 用户名
@@ -14,8 +17,10 @@ public class AdminService {
         AdminDao dao = new AdminDao();
         Admin admin = dao.queryAdminByName(name);
         if (admin!=null&&admin.getPassword().equals(password)){
+            logger.debug("获取admin对象成功");
             return admin;
         }
+        logger.warn("获取admin对象失败");
         return null;
     }
 }

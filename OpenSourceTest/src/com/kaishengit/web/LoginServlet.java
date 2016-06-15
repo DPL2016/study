@@ -21,9 +21,9 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String patchca = req.getParameter("patchca");
-        String sessionCaptcha =(String) req.getSession().getAttribute("patchca");
-        if(patchca!=null&&patchca.equalsIgnoreCase(sessionCaptcha)){
+        String pat = req.getParameter("pat");
+        String sessionCaptcha =(String) req.getSession().getAttribute("pat");
+        if(pat!=null&&pat.equalsIgnoreCase(sessionCaptcha)){
             String username = req.getParameter("username");
             String password = req.getParameter("password");
             AdminService adminService = new AdminService();
@@ -31,6 +31,7 @@ public class LoginServlet extends HttpServlet {
             if (admin!=null){
                 logger.debug("{}登录成功",username);
                 resp.sendRedirect("/home");
+                return;
             }
         }else {
             logger.warn("验证码或密码错误");
