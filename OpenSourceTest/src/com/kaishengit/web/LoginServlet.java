@@ -2,6 +2,7 @@ package com.kaishengit.web;
 
 import com.kaishengit.entity.Admin;
 import com.kaishengit.service.AdminService;
+import com.kaishengit.util.EmailUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -31,7 +32,6 @@ public class LoginServlet extends HttpServlet {
             if (admin!=null){
                 logger.debug("{}登录成功",username);
                 resp.sendRedirect("/home");
-                return;
             }
         }else {
             logger.warn("验证码或密码错误");

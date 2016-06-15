@@ -17,23 +17,15 @@ public class ConnectionManager {
     private static BasicDataSource dataSource = new BasicDataSource();
 
     static {
-        Properties properties = new Properties();
-        try {
-            properties.load(ConnectionManager.class.getClassLoader().getResourceAsStream("config.properties"));
-            logger.debug("加载config.properties文件成功");
-        } catch (IOException e) {
-            logger.debug("加载config.properties文件失败");
-            throw new DataAccessException("加载config.properties文件失败", e);
-        }
-        dataSource.setDriverClassName(properties.getProperty("jdbc.driver"));
-        dataSource.setUrl(properties.getProperty("jdbc.url"));
-        dataSource.setUsername(properties.getProperty("jdbc.username"));
-        dataSource.setPassword(properties.getProperty("jdbc.password"));
-        dataSource.setInitialSize(Integer.parseInt(properties.getProperty("jdbc.initsize","5")));
-        dataSource.setMaxTotal(Integer.parseInt(properties.getProperty("jdbc.maxtotal","15")));
-        dataSource.setMaxWaitMillis(Integer.parseInt(properties.getProperty("jdbc.maxwait","5000")));
-        dataSource.setMaxIdle(Integer.parseInt(properties.getProperty("jdbc.maxidle","20")));
-        dataSource.setMinIdle(Integer.parseInt(properties.getProperty("jdbc.minidle","10")));
+        dataSource.setDriverClassName(Config.get("jdbc.driver"));
+        dataSource.setUrl(Config.get("jdbc.url"));
+        dataSource.setUsername(Config.get("jdbc.username"));
+        dataSource.setPassword(Config.get("jdbc.password"));
+        dataSource.setInitialSize(Integer.parseInt(Config.get("jdbc.initsize","5")));
+        dataSource.setMaxTotal(Integer.parseInt(Config.get("jdbc.maxtotal","15")));
+        dataSource.setMaxWaitMillis(Integer.parseInt(Config.get("jdbc.maxwait","5000")));
+        dataSource.setMaxIdle(Integer.parseInt(Config.get("jdbc.maxidle","20")));
+        dataSource.setMinIdle(Integer.parseInt(Config.get("jdbc.minidle","10")));
     }
 
     public static Connection getConnection() throws DataAccessException {
