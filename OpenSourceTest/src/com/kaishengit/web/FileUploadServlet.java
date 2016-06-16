@@ -1,5 +1,6 @@
 package com.kaishengit.web;
 
+import com.kaishengit.service.DocumenService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,16 +28,18 @@ public class FileUploadServlet extends HttpServlet {
         String describe = req.getParameter("describe");
         logger.debug("描述为：{}",describe);
         Part part = req.getPart("doc");
-        String contentType = part.getContentType();
+       /* String contentType = part.getContentType();
         logger.debug("文件的ContentType为{}",contentType);
         long size = part.getSize();
         logger.debug("文件的大小{}",size);
         String filename = getFileName(part);
         logger.debug("文件的名称{}",filename);
-        savefile(part);
-
+        savefile(part);*/
+        InputStream inputStream = part.getInputStream();
+        DocumenService documenService = new DocumenService();
+        documenService.updateFile(getFileName(part),part.getSize(),inputStream);
     }
-    private void savefile(Part part) throws IOException {
+    /*private void savefile(Part part) throws IOException {
         File dir = new File("D:/122");
         if (!dir.exists()){
             dir.mkdir();
@@ -53,7 +56,7 @@ public class FileUploadServlet extends HttpServlet {
         bos.flush();
         bos.close();
         bis.close();
-    }
+    }*/
     private String getFileName(Part part){
         String headValue = part.getHeader("Content-Disposition");
         headValue = headValue.substring(headValue.indexOf("filename=\""));

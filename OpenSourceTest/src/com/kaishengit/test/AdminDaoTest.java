@@ -1,7 +1,9 @@
 package com.kaishengit.test;
 
 import com.kaishengit.dao.AdminDao;
+import com.kaishengit.dao.DocumentDao;
 import com.kaishengit.entity.Admin;
+import com.kaishengit.entity.Document;
 import com.kaishengit.service.AdminService;
 import org.junit.Assert;
 import org.junit.Test;
@@ -42,6 +44,18 @@ public class AdminDaoTest {
         AdminService adminService = new AdminService();
        Admin admin =  adminService.login("lucy","11111");
         Assert.assertNotNull(admin);
+    }
+    @Test
+    public void documentDAOTest(){
+        DocumentDao dao = new DocumentDao();
+        Document document = new Document();
+        document.setFilename("123.txt");
+        document.setSavename("13656");
+        document.setMd5("158847");
+        document.setSize(255888l);
+        document.setEndname("txt");
+        document.setDisplaysize("1gb");
+        dao.savaDocument(document);
     }
 }
 
