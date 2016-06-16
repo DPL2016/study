@@ -7,9 +7,11 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 
 import java.io.*;
+import java.util.List;
 import java.util.UUID;
 
 public class DocumenService {
+    private DocumentDao documentDao = new DocumentDao();
     public void updateFile(String fileName, long size, InputStream inputStream) throws IOException {
         ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(IOUtils.toByteArray(inputStream));
         String md5 = DigestUtils.md5Hex(byteArrayInputStream);
@@ -43,5 +45,12 @@ public class DocumenService {
         fos.close();
         fos.close();
         return fileName;
+    }
+
+    public List<Document> findAllDocument() {
+        return  documentDao.findAll();
+    }
+    public Document findDocumentByMd5(String md5) {
+        return documentDao.findDomentByMd5(md5);
     }
 }

@@ -19,7 +19,7 @@ public class FileUploadServlet extends HttpServlet {
     private Logger logger = LoggerFactory.getLogger(FileUploadServlet.class);
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/WEB-INF/views/fileload.jsp").forward(req,resp);
+        req.getRequestDispatcher("/WEB-INF/views/load.jsp").forward(req,resp);
     }
 
     @Override

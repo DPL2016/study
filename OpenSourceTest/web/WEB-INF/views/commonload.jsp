@@ -6,7 +6,7 @@
 </head>
 <body>
 <div>
-    <form action="/load" method="post" enctype="multipart/form-data">
+    <form action="/common/load" method="post" enctype="multipart/form-data">
     <lable>描述</lable>
     <input type="text" name="describe"><br><br>
     <lable>选择文件</lable>
