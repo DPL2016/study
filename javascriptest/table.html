@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p>
+    <lable>姓名</lable>
+    <input id="name" type="text"><br></p>
+<p>
+    <lable>性别</lable>
+    <input id="sex" type="text"><br></p>
+<p>
+    <lable>年龄</lable>
+    <input id="age" type="text"><br></p>
+<p>
+    <button onclick="add();">添加</button>
+
+<table id="tb" border="1px" width="300px">
+    <caption>人员表</caption>
+    <thead>
+    <tr>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>年龄</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>张三</td>
+        <td>1</td>
+        <td>22</td>
+        <td>
+            <input type="button" value="删除" onclick="del(this)">
+        </td>
+    </tr>
+    <tr>
+        <td>李四</td>
+        <td>2</td>
+        <td>20</td>
+        <td>
+            <input type="button" value="删除" onclick="del(this)">
+        </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="4">合计：N</td>
+    </tr>
+    </tfoot>
+</table>
+<script>
+    var t = document.getElementById("tb");
+    var nm = document.getElementById("name");
+    var sex = document.getElementById("sex");
+    var age = document.getElementById("age");
+    function del(ele) {
+        t.deleteRow(ele.parentNode.parentNode.rowIndex);
+    }
+    function add(){
+       var row = t.tBodies[0].insertRow();
+        row.insertCell().innerText=nm.value;
+        row.insertCell().innerText=sex.value;
+        row.insertCell().innerText=age.value;
+        row.insertCell().innerHTML="<input type='button' value='删除' onclick='del(this)'>";
+    }
+
+</script>
+</body>
+</html>
