@@ -18,14 +18,12 @@ public class MovieService {
 
     public Page<Movie> findMovieByPageNo(int pageNo) {
         int totalSize = dao.count().intValue();
+        logger.debug("totalSize:",totalSize);
         Page<Movie> page = new Page<>(pageNo,10,totalSize);
-        logger.debug("page:{}",page);
         List<Movie>movieList = dao.findMoviesByPageNo(page.getStart(),10);
         logger.debug("movielist:{}",movieList);
-
+        page.setItems(movieList);
         return page;
     }
-    public void count(){
 
-    }
 }

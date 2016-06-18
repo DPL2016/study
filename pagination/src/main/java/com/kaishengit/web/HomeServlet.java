@@ -28,7 +28,7 @@ public class HomeServlet extends HttpServlet {
         }
         logger.debug("p:{}",p);
         Page<Movie> page =  movieService.findMovieByPageNo(p);
-        logger.debug("page:{}",page);
+        logger.debug("page122334:{}",page.getItems());
         req.setAttribute("page",page);
         req.getRequestDispatcher("/WEB-INF/views/home.jsp").forward(req,resp);
     }
