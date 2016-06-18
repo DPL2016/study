@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="navbar">
+    <i class="fa fa-tasks"></i> TodoList
+</div>
+
+<div class="container">
+    <div class="input-warpper">
+        <input type="text" class="newtodo" id="input-newtodo" placeholder="+ 添加一个任务">
+    </div>
+    <ul class="list" id="newList">
+
+    </ul>
+    <a href="javascript:;" id="doneTaskNum" class="donetasknum"><span id="finishNum">2</span>个已完成任务</a>
+    <ul class="list hide" id="finishList">
+
+    </ul>
+</div>
+
+<script>
+    var newlist = document.getElementById("newList");
+    var finishList = document.getElementById("finishList");
+    var data = [
+        {todo:"编写分页",finish:false},
+        {todo:"复习JavaScript",finish:false}
+    ];
+</script>
+</body>
+</html>
