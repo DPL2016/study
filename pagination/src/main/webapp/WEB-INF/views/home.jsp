@@ -31,7 +31,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <c:forEach items="${list}" var="movie">
+                    <c:forEach items="${page.items}" var="movie">
                         <tr>
                             <td width="400">${movie.title}</td>
                             <td>${movie.rate}</td>
@@ -39,7 +39,7 @@
                             <td>${movie.releaseyear}</td>
                             <td>${movie.sendtime}</td>
                         </tr>
-                        </c:forEach>
+                    </c:forEach>
                     </tbody>
                 </table>
 
@@ -79,21 +79,21 @@
     </div>
     <script src="/static/js/jquery-1.11.3.min.js"></script>
     <script src="/static/js/jquery.twbsPagination.min.js"></script>
-    <%--<script>--%>
-        <%--$(function(){--%>
+    <script>
+        $(function(){
 
-            <%--$("#page").twbsPagination({--%>
-                <%--totalPages:${page.totalPages},--%>
-                <%--visiblePages:10,--%>
-                <%--first:'首页',--%>
-                <%--prev:'上一页',--%>
-                <%--next:'下一页',--%>
-                <%--last:'末页',--%>
-                <%--href:'?p={{number}}'--%>
-            <%--});--%>
+            $("#page").twbsPagination({
+                totalPages:${page.totalPages},
+                visiblePages:10,
+                first:'首页',
+                prev:'上一页',
+                next:'下一页',
+                last:'末页',
+                href:'?p={{number}}'
+            });
 
 
-        <%--});--%>
-    <%--</script>--%>
+        });
+    </script>
 </body>
 </html>
