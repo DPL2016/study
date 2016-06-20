@@ -19,10 +19,34 @@
         <input type="text" class="newtodo" id="input-newtodo" placeholder="+ 添加一个任务">
     </div>
     <ul class="list" id="newList">
+        <li>
+            <div class="task-warpper">
+                <a href="javascript:;" class="ck-warpper"><span class="checkbox"></span></a>
+                <span class="text">明天给Alex 打电话</span>
+            </div>
+        </li>
+        <li>
+            <div class="task-warpper">
+                <a href="javascript:;" class="ck-warpper"><span class="checkbox"></span></a>
+                <span class="text">完成TodoList的编码工作</span>
+            </div>
+        </li>
 
     </ul>
-    <a href="javascript:;" id="doneTaskNum" class="donetasknum"><span id="finishNum">2</span>个已完成任务</a>
-    <ul class="list hide" id="finishList">
+    <a href="#" class="donetasknum"><span id="finishNum">2</span>个已完成任务</a>
+    <ul class="list">
+        <li class="done">
+            <div class="task-warpper">
+                <a href="javascript:;" class="ck-warpper"><span class="checkbox"></span></a>
+                <span class="text">明天给Alex 打电话</span>
+            </div>
+        </li>
+        <li class="done">
+            <div class="task-warpper">
+                <a href="javascript:;" class="ck-warpper"><span class="checkbox"></span></a>
+                <span class="text">完成TodoList的编码工作</span>
+            </div>
+        </li>
 
     </ul>
 </div>
@@ -32,8 +56,38 @@
     var finishList = document.getElementById("finishList");
     var data = [
         {todo:"编写分页",finish:false},
-        {todo:"复习JavaScript",finish:false}
+        {todo:"复习JavaScript",finish:false},
+        {todo:"复习DOM",finish:true}
     ];
+    function init(){
+        for (var o in data){
+            toLi(data[o])
+        }
+    }
+    function toLi(obj){
+        var li = document.createElement("li");
+        var div= document.createElement("div");
+        var a = document.createElement("a");
+        var aSpan = document.createElement("span");
+        var span = document.createElement("span");
+        a.appendChild(aSpan);
+        div.appendChild(a);
+        div.appendChild(span);
+        li.appendChild(div);
+        aSpan.setAttribute("class","checkbox");
+        a.setAttribute("herf","javascript:");
+        a.setAttribute("class","ck-warpper");
+        span.setAttribute("class","text");
+        div.setAttribute("class","task-warpper");
+        span.innerText =obj.todo;
+        if (obj.finish){
+            li.setAttribute("class","done");
+            finishList.appendChild(li);
+        }else {
+            newlist.appendChild(li)
+        }
+    }
+    init()
 </script>
 </body>
 </html>
