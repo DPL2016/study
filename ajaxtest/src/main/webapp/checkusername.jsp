@@ -7,6 +7,8 @@
 <body>
 <input type="text" id="username"> <span id="msg"></span>
 <script>
+
+
         function creatXmlHttp(){
             var xmlHttp = null;
             if (window.ActiveXObject){
@@ -19,10 +21,9 @@
         document.querySelector("#username").onchange = function(){
             var username = this.value;
             var xmlHttp = creatXmlHttp();
-            xmlHttp.open("get","/username?username="+username);
+            xmlHttp.open("get","/username?username="+encodeURIComponent(username));
             xmlHttp.onreadystatechange=function() {
                 var readyState = xmlHttp.readyState;
-                alert(readyState);
                 if (readyState == 4) {
                     var httpState = xmlHttp.status;
                     if (httpState == 200) {

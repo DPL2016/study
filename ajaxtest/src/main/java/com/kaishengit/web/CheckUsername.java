@@ -18,6 +18,7 @@ public class CheckUsername extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String username = req.getParameter("username");
+        username = new String(username.getBytes("ISO8859-1"),"UTF-8");
         logger.debug("username:{}",username);
         PrintWriter out = resp.getWriter();
         if (username.equals("tom")){
