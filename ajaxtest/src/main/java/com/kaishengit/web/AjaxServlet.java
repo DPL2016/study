@@ -23,4 +23,19 @@ public class AjaxServlet extends HttpServlet {
         out.flush();
         out.close();
     }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("UTF-8");
+
+        String name = req.getParameter("name");
+        String address = req.getParameter("address");
+
+        logger.debug("ajax doPost request ....{}-{}",name,address);
+
+        PrintWriter out = resp.getWriter();
+        out.print("PHP");
+        out.flush();
+        out.close();
+    }
 }

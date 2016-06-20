@@ -14,6 +14,11 @@
             alert("hi,"+result);
         });
     };
+    document.querySelector("#postbtn").onclick=function(){
+        Ajax.postText("/ajax",{name:"tom",address:"china"},function(result){
+            alert("post:"+result);
+        });
+    };
 </script>
 </body>
 </html>

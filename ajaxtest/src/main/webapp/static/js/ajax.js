@@ -55,7 +55,32 @@ var Ajax = (function(){
         };
         xmlHttp.send();
     }
+    function sendPostRequest(url,queryPream,callback){
+        var args = arguments;
+        var xmlHttp = creatXmlHttp();
+        xmlHttp.open("post",url,true);
+        xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+        xmlHttp.onreadystatechange=function(){
+            var readyState = xmlHttp.readyState;
+            if (readyState==4){
+                var status = xmlHttp.status;
+                if (status==200){
+                    var result = xmlHttp.responseText;
+                    if (args.length==2){
+                        args[1](result);
+                    }else if (args.length==3){
+                        args[2](result);
+                    }
+                }else {
+                    alert("服务器请求失败"+status);
+                }
+            }
+        };
+        xmlHttp.send(bilderQueryParam(true,queryPream));
+    }
     return{
         getText:sendGetRequest,
+        postText:sendPostRequest
     }
+
 })();
