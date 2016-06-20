@@ -18,10 +18,13 @@
             }
             return xmlHttp;
         }
-        document.querySelector("#username").onchange = function(){
+        document.querySelector("#username").onblur = function(){
             var username = this.value;
             var xmlHttp = creatXmlHttp();
+            //方法一：添加无意义参数
+//            xmlHttp.open("get","/username?username="+encodeURIComponent(username))+new Date().getTime();
             xmlHttp.open("get","/username?username="+encodeURIComponent(username));
+            console.log(username);
             xmlHttp.onreadystatechange=function() {
                 var readyState = xmlHttp.readyState;
                 if (readyState == 4) {
