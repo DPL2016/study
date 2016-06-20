@@ -6,6 +6,7 @@
 <body>
 <h2>Hello Ajax!</h2>
 <button id="btn">发送get请求</button>
+<button id="postbtn">发送post请求</button>
 <h3>你好</h3>
 <script>
     (function(){
@@ -20,11 +21,18 @@
             }
             return xmlHttp;
         }
-        document.querySelector("#btn").onclick = function(){
+        /*document.querySelector("#btn").onclick = function(){
             var xmlHttp = creatXmlHttp();
 
             xmlHttp.open("get","/ajax",true);
             xmlHttp.send();
+        }*/
+        document.querySelector("#postbtn").onclick = function(){
+            var xmlHttp = creatXmlHttp();
+
+            xmlHttp.open("post","/post",true);
+            xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+            xmlHttp.send("name=tom");
         }
     })();
 </script>

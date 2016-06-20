@@ -1,2 +1,3 @@
-com\kaishengit\web\CheckUsername.class
+com\kaishengit\web\postServlet.class
 com\kaishengit\web\AjaxServlet.class
+com\kaishengit\web\CheckUsername.class

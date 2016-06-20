@@ -9,12 +9,18 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 @WebServlet("/ajax")
 public class AjaxServlet extends HttpServlet {
     private Logger logger = LoggerFactory.getLogger(AjaxServlet.class);
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        logger.debug("hello ajax!");
+        logger.debug("Ajax request ....");
+
+        PrintWriter out = resp.getWriter();
+        out.print("rose");
+        out.flush();
+        out.close();
     }
 }
