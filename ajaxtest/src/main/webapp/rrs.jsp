@@ -38,6 +38,7 @@
                 document.querySelector("#list").appendChild(li);
             }
             document.querySelector("#loadBtn").onclick = function(){
+                document.querySelector("#list").innerHTML = "";
                 var url = document.querySelector("#url").value;
                 var xmlHttp = creatXmlHttp();
                 xmlHttp.open("get","/load?url="+url,true);

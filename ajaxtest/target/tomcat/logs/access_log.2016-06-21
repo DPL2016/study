@@ -1,4 +1,4 @@
-0:0:0:0:0:0:0:1 - - [21/Jun/2016:17:38:53 +0800] "GET /rrs.jsp HTTP/1.1" 200 2472 http-bio-80-exec-1 1560
-0:0:0:0:0:0:0:1 - - [21/Jun/2016:17:38:53 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-80-exec-2 5
-0:0:0:0:0:0:0:1 - - [21/Jun/2016:17:39:05 +0800] "GET /load?url=http://blog.sina.com.cn/rss/1220218113.xml HTTP/1.1" 200 167600 http-bio-80-exec-3 913
-0:0:0:0:0:0:0:1 - - [21/Jun/2016:17:39:19 +0800] "GET /load?url=http://blog.sina.com.cn/rss/1220218113.xml HTTP/1.1" 200 167600 http-bio-80-exec-4 305
+0:0:0:0:0:0:0:1 - - [21/Jun/2016:18:10:42 +0800] "GET /dict.jsp HTTP/1.1" 200 1906 http-bio-80-exec-1 1172
+0:0:0:0:0:0:0:1 - - [21/Jun/2016:18:10:42 +0800] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 36822 http-bio-80-exec-4 4
+0:0:0:0:0:0:0:1 - - [21/Jun/2016:18:10:51 +0800] "GET /dict?q=%E5%9B%BE%E4%B9%A6 HTTP/1.1" 200 1526 http-bio-80-exec-5 772
+0:0:0:0:0:0:0:1 - - [21/Jun/2016:18:11:03 +0800] "GET /dict?q=Internet HTTP/1.1" 200 1796 http-bio-80-exec-6 89
