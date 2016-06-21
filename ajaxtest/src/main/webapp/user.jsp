@@ -22,17 +22,17 @@
             }
             function creatDiv(id,username,address){
                 var div = document.createElement("div");
-                var h4 = document.createElement("h4");
+                var h3 = document.createElement("h3");
                 var small = document.createElement("small");
                 var p = document.createElement("p");
                 var idText = document.createTextNode(id);
                 var usernameText = document.createTextNode(username);
                 var addressText = document.createTextNode(address);
                 small.appendChild(idText);
-                h4.appendChild(usernameText);
+                h3.appendChild(usernameText);
                 p.appendChild(addressText);
-                h4.appendChild(small);
-                div.appendChild(h4);
+                h3.appendChild(small);
+                div.appendChild(h3);
                 div.appendChild(p)
                 document.getElementById("user").appendChild(div);
             }
@@ -45,6 +45,7 @@
                    if (readStates==4){
                        var status = xmlHttp.status;
                        if (status==200){
+                           document.getElementById("user").innerHTML = "";
                            var xmlDoc = xmlHttp.responseXML;
                            var userArray = xmlDoc.getElementsByTagName("user");
                            for (var i= 0;i<userArray.length;i++){
