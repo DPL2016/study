@@ -1,8 +1,3 @@
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:50:46 +0800] "GET /readxml.jsp HTTP/1.1" 200 2867 http-bio-80-exec-1 1297
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:50:46 +0800] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 - http-bio-80-exec-2 4
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:50:47 +0800] "GET /user.xml HTTP/1.1" 200 349 http-bio-80-exec-3 4
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:50:52 +0800] "GET /user.xml HTTP/1.1" 200 349 http-bio-80-exec-4 1
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:50:55 +0800] "GET /user.xml HTTP/1.1" 200 349 http-bio-80-exec-5 1
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:51:44 +0800] "GET /readxml.jsp HTTP/1.1" 200 2867 http-bio-80-exec-6 154
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:51:45 +0800] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 - http-bio-80-exec-7 2
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:51:45 +0800] "GET /user.xml HTTP/1.1" 200 349 http-bio-80-exec-8 1
+0:0:0:0:0:0:0:1 - - [22/Jun/2016:16:40:20 +0800] "GET /rss.jsp HTTP/1.1" 200 2550 http-bio-80-exec-1 1221
+0:0:0:0:0:0:0:1 - - [22/Jun/2016:16:40:20 +0800] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 - http-bio-80-exec-2 5
+0:0:0:0:0:0:0:1 - - [22/Jun/2016:16:40:28 +0800] "GET /load?url=http://blog.sina.com.cn/rss/1220218113.xml HTTP/1.1" 200 167600 http-bio-80-exec-3 1016

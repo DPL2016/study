@@ -1,5 +1,7 @@
 com\kaishengit\dao\AdminDAO.class
 com\kaishengit\web\CheckUsername.class
+com\kaishengit\web\LoadServlet.class
+com\kaishengit\util\HttpUtil.class
 com\kaishengit\entity\Admin.class
 com\kaishengit\util\Config.class
 com\kaishengit\web\UserXmlTest.class
