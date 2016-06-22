@@ -2,6 +2,7 @@ com\kaishengit\dao\AdminDAO.class
 com\kaishengit\web\CheckUsername.class
 com\kaishengit\entity\Admin.class
 com\kaishengit\util\Config.class
+com\kaishengit\web\UserXmlTest.class
 com\kaishengit\web\AjaxServlet.class
 com\kaishengit\util\ConnectionManager.class
 com\kaishengit\exception\DataAccessException.class

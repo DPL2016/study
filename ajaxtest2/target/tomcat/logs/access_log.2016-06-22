@@ -1,4 +1,8 @@
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:11:43:44 +0800] "GET /post.jsp HTTP/1.1" 200 656 http-bio-80-exec-3 1531
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:11:43:44 +0800] "GET /static/js/ajax.js HTTP/1.1" 304 - http-bio-80-exec-4 5
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:11:43:45 +0800] "POST /ajax HTTP/1.1" 200 15 http-bio-80-exec-5 242
-0:0:0:0:0:0:0:1 - - [22/Jun/2016:11:43:48 +0800] "GET /ajax?_=1466567028871 HTTP/1.1" 200 14 http-bio-80-exec-6 2
+0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:50:46 +0800] "GET /readxml.jsp HTTP/1.1" 200 2867 http-bio-80-exec-1 1297
+0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:50:46 +0800] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 - http-bio-80-exec-2 4
+0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:50:47 +0800] "GET /user.xml HTTP/1.1" 200 349 http-bio-80-exec-3 4
+0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:50:52 +0800] "GET /user.xml HTTP/1.1" 200 349 http-bio-80-exec-4 1
+0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:50:55 +0800] "GET /user.xml HTTP/1.1" 200 349 http-bio-80-exec-5 1
+0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:51:44 +0800] "GET /readxml.jsp HTTP/1.1" 200 2867 http-bio-80-exec-6 154
+0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:51:45 +0800] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 - http-bio-80-exec-7 2
+0:0:0:0:0:0:0:1 - - [22/Jun/2016:14:51:45 +0800] "GET /user.xml HTTP/1.1" 200 349 http-bio-80-exec-8 1
