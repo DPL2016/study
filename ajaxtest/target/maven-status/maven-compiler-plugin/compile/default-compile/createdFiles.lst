@@ -1,4 +1,5 @@
 com\kaishengit\web\CheckUsername.class
+com\kaishengit\web\RegServlet.class
 com\kaishengit\web\LoadServlet.class
 com\kaishengit\web\UserXmlServlet.class
 com\kaishengit\entity\User.class

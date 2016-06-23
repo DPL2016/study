@@ -17,6 +17,11 @@ import java.util.List;
 public class JsonServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         List<User> userList = new ArrayList<>();
         userList.add(new User(1,"tom","usa",77.1F));
         userList.add(new User(11,"jam","usa",56.1F));

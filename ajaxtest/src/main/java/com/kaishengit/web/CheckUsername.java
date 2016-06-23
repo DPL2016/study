@@ -28,9 +28,9 @@ public class CheckUsername extends HttpServlet {
         logger.debug("username:{}",username);
         PrintWriter out = resp.getWriter();
         if (username.equals("tom")){
-            out.print("no");
+            out.print("false");
         }else {
-            out.print("yes");
+            out.print("true");
         }
         out.flush();
         out.close();
