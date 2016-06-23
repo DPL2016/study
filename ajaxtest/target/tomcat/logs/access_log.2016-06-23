@@ -1,7 +1,8 @@
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:11:24:31 +0800] "GET /json.jsp HTTP/1.1" 200 1693 http-bio-80-exec-1 1361
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:11:24:31 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-80-exec-7 6
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:11:24:43 +0800] "GET /json.jsp HTTP/1.1" 200 1693 http-bio-80-exec-8 4
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:11:24:53 +0800] "GET /json.jsp HTTP/1.1" 200 1693 http-bio-80-exec-9 2
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:11:25:14 +0800] "GET /json.jsp HTTP/1.1" 200 1693 http-bio-80-exec-10 4
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:11:25:51 +0800] "GET /json.jsp HTTP/1.1" 200 1722 http-bio-80-exec-10 116
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:11:25:53 +0800] "GET /user.json HTTP/1.1" 200 175 http-bio-80-exec-10 77
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:12:47:02 +0800] "GET /jqckusername.jsp HTTP/1.1" 200 1961 http-bio-80-exec-1 1217
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:12:47:02 +0800] "GET /static/js/jquery-1.11.3.min.js HTTP/1.1" 304 - http-bio-80-exec-2 5
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:12:47:07 +0800] "GET /username?username= HTTP/1.1" 200 13 http-bio-80-exec-3 90
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:12:47:12 +0800] "GET /username?username= HTTP/1.1" 200 13 http-bio-80-exec-4 2
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:12:47:15 +0800] "POST /ajax HTTP/1.1" 200 13 http-bio-80-exec-5 5
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:12:49:08 +0800] "GET /jqckusername.jsp HTTP/1.1" 200 2000 http-bio-80-exec-7 142
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:12:49:08 +0800] "GET /static/js/jquery-1.11.3.min.js HTTP/1.1" 304 - http-bio-80-exec-8 2
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:12:49:12 +0800] "GET /username?username=tom HTTP/1.1" 200 12 http-bio-80-exec-9 2
