@@ -6,6 +6,7 @@ com\kaishengit\exception\DataAccessException.class
 com\kaishengit\util\DBHelp.class
 com\kaishengit\web\CheckUsername.class
 com\kaishengit\web\LoadServlet.class
+com\kaishengit\web\UploadServlet.class
 com\kaishengit\entity\User.class
 com\kaishengit\util\Config.class
 com\kaishengit\web\JsonServlet.class
