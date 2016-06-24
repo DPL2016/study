@@ -1,7 +1,0 @@
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:21:24:04 +0800] "GET /form.jsp HTTP/1.1" 200 3149 http-bio-80-exec-1 1189
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:21:24:04 +0800] "GET /static/js/jquery.validate.min.js HTTP/1.1" 304 - http-bio-80-exec-4 5
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:21:24:04 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-80-exec-2 12
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:21:24:04 +0800] "GET /static/js/jquery-1.11.3.min.js HTTP/1.1" 304 - http-bio-80-exec-3 7
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:21:24:08 +0800] "GET /username?username=tom HTTP/1.1" 200 15 http-bio-80-exec-7 116
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:21:24:20 +0800] "GET /username?username=jam HTTP/1.1" 200 14 http-bio-80-exec-8 3
-0:0:0:0:0:0:0:1 - - [23/Jun/2016:21:24:27 +0800] "POST /reg HTTP/1.1" 200 - http-bio-80-exec-9 4

@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:12:59:12 +0800] "POST /message HTTP/1.1" 200 12 http-bio-80-exec-1 1043
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:12:59:14 +0800] "GET /message HTTP/1.1" 200 3570 http-bio-80-exec-2 2108
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:12:59:14 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-80-exec-3 7
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:12:59:14 +0800] "GET /static/js/jquery-1.11.3.min.js HTTP/1.1" 304 - http-bio-80-exec-4 7
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:12:59:24 +0800] "POST /message HTTP/1.1" 200 12 http-bio-80-exec-6 4
+0:0:0:0:0:0:0:1 - - [24/Jun/2016:12:59:34 +0800] "POST /message HTTP/1.1" 200 104 http-bio-80-exec-7 12
