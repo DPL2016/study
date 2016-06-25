@@ -1,1 +1,8 @@
-com\kaishengit\ListServlet.class
+com\kaishengit\dao\MessageDAO.class
+com\kaishengit\web\ListServlet.class
+com\kaishengit\util\Config.class
+com\kaishengit\service\MessageService.class
+com\kaishengit\entity\Message.class
+com\kaishengit\util\ConnectionManager.class
+com\kaishengit\exception\DataAccessException.class
+com\kaishengit\util\DBHelp.class
