@@ -13,6 +13,7 @@ import java.util.List;
 public class MessageService {
     private Logger logger = LoggerFactory.getLogger(MessageService.class);
     private MessageDAO dao = new MessageDAO();
+    private Message message = new Message();
 
     /**
      * 查询message全部数据
@@ -20,5 +21,12 @@ public class MessageService {
      */
     public List<Message> findAll() {
        return dao.findAll();
+    }
+
+    public void addMessage(String command, String description, String content) {
+        message.setCommand(command);
+        message.setDescription(description);
+        message.setContent(content);
+        dao.addMeaaage(message);
     }
 }

@@ -18,4 +18,8 @@ public class MessageDAO {
     }
 
 
+    public void addMeaaage(Message message) {
+        String sql= "insert into message (command,description,content) values(?,?,?)";
+        DBHelp.update(sql,message.getCommand(),message.getDescription(),message.getContent());
+    }
 }

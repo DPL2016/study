@@ -1,5 +1,6 @@
 com\kaishengit\dao\MessageDAO.class
 com\kaishengit\web\ListServlet.class
+com\kaishengit\web\AddMessage.class
 com\kaishengit\util\Config.class
 com\kaishengit\service\MessageService.class
 com\kaishengit\entity\Message.class
