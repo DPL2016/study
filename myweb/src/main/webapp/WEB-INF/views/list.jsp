@@ -12,7 +12,7 @@
     <div class="right">
         <div class="current">当前位置：<a href="javascript:void(0)" style="color:#6E6E6E;">内容管理</a> &gt; 内容列表</div>
         <div class="rightCont">
-            <p class="g_title fix">内容列表 <a class="btn03" href="/add">新 增</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn03" href="#">删 除</a></p>
+            <p class="g_title fix">内容列表 <a class="btn03" href="/add">新 增</a>&nbsp;&nbsp;&nbsp;&nbsp;</p>
             <table class="tab1">
                 <tbody>
                 <tr>
@@ -45,8 +45,8 @@
                         <td>${msg.description}</td>
                         <td>${msg.command}</td>
                         <td>
-                            <a href="#">修改</a>&nbsp;&nbsp;&nbsp;
-                            <a href="#">删除</a>
+                            <button id="edit">修改</a>&nbsp;&nbsp;&nbsp;</button>
+                            <button id="del" data="${msg.command}">删除</button>
                         </td>
                         </tr>
                     </c:forEach>
@@ -66,5 +66,16 @@
         </div>
     </div>
 </form>
+<script src="/static/js/jquery-1.11.3.min.js"></script>
+<script>
+    $(function(){
+        $("td>button#del").click(function(){
+            if (confirm("确认要删除吗？")) {
+                var command = $(this).attr("data");
+                location.href = "/del?command=" + command;
+            }
+        });
+    });
+</script>
 </body>
 </html>

@@ -10,12 +10,13 @@ import java.sql.SQLException;
 
 public class DBHelp {
     private static Logger logger = LoggerFactory.getLogger(DBHelp.class);
-    public static void update(String sql,Object...paras){
+    public static boolean update(String sql,Object...paras){
         QueryRunner queryRunner = new QueryRunner(ConnectionManager.getDataSource());
 
         try {
-            queryRunner.update(sql,paras);
             logger.debug("sql{}运行正常",sql);
+            return queryRunner.update(sql,paras)==1;
+
         } catch (SQLException e) {
             logger.error("sql{}运行错误",sql);
             throw new DataAccessException("sql语句"+sql+"异常",e);

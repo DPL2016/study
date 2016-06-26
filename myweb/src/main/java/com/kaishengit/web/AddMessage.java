@@ -21,10 +21,29 @@ import java.io.IOException;
 public class AddMessage extends HttpServlet {
     private Logger logger = LoggerFactory.getLogger(Message.class);
 
+    /**
+     * doGet请求转发显示新增页面
+     * @param req request
+     * @param resp response
+     * @throws ServletException ServletException
+     * @throws IOException ServletException
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.getRequestDispatcher("/WEB-INF/views/addMessage.jsp").forward(req,resp);
     }
+
+    /**
+     * doPost 获取表单数据并显示到列表页面
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     *
+     * 获取表单元素
+     * 通过调用MessageService中的addMessage方法，新增数据
+     * 重定向到list页面
+     */
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

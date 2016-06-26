@@ -23,10 +23,27 @@ public class MessageService {
        return dao.findAll();
     }
 
+    /**
+     * 新增数据
+     * @param command 指令
+     * @param description 描述
+     * @param content 简介
+     * 调用MessageDAO中的addMessage方法，新增数据
+     */
     public void addMessage(String command, String description, String content) {
         message.setCommand(command);
         message.setDescription(description);
         message.setContent(content);
         dao.addMeaaage(message);
     }
+
+    /**
+     * 删除数据
+     * @param command command
+     * 调用MessageDAO中的delMessage方法，删除数据
+     */
+    public boolean delMessage(String command){
+      return dao.delMessage(command);
+    }
+
 }

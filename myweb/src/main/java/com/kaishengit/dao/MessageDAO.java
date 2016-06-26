@@ -22,4 +22,12 @@ public class MessageDAO {
         String sql= "insert into message (command,description,content) values(?,?,?)";
         DBHelp.update(sql,message.getCommand(),message.getDescription(),message.getContent());
     }
+
+    public boolean delMessage(String command){
+        String sql = "delete from message where command = ?";
+        return DBHelp.update(sql,command);
+
+    }
+
+
 }
