@@ -18,7 +18,7 @@ public class ServiceTest {
 
     @Test
     public void delTest(){
-        ms.delMessage(9);
+        ms.delMessage("");
     }
 @Test
     public void addTest(){
