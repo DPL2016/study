@@ -40,10 +40,14 @@
       <file leaf-file-name="AdminMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.090909">
-              <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+            <state vertical-scroll-proportion="-6.060606">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
               <folding>
-                <marker date="1467030812345" expanded="true" signature="313:372" placeholder="SELECT id,na... admin" />
+                <marker date="1467033901220" expanded="true" signature="313:372" placeholder="SELECT id,na... admin" />
+                <marker date="1467033901220" expanded="true" signature="460:542" placeholder="INSERT INTO admin... " />
+                <marker date="1467033901220" expanded="true" signature="633:708" placeholder="UPDATE admin... " />
+                <marker date="1467033901220" expanded="true" signature="776:810" placeholder="DELETE FROM " />
+                <marker date="1467033901220" expanded="true" signature="898:940" placeholder="SELECT id,na... admin" />
               </folding>
             </state>
           </provider>
@@ -62,21 +66,11 @@
       <file leaf-file-name="MyUtilTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48257372">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.09919571">
+              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.060606">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -100,9 +94,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/Admin.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/util/MyBatisUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyUtilTest.java" />
       </list>
     </option>
@@ -126,8 +120,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="28" />
+    <option name="x" value="-173" />
+    <option name="y" value="21" />
     <option name="width" value="1378" />
     <option name="height" value="732" />
   </component>
@@ -375,7 +369,7 @@
       <recent name="E:\webtest\idea\mybaties2\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyUtilTest.TestLoadXml">
+  <component name="RunManager" selected="JUnit.MyUtilTest.findAllTest">
     <configuration default="false" name="MyUtilTest.TestLoadXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -389,6 +383,110 @@
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
       <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyUtilTest" />
       <option name="METHOD_NAME" value="TestLoadXml" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyUtilTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kaishengit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybaties2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kaishengit.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyUtilTest" />
+      <option name="METHOD_NAME" value="saveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyUtilTest.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kaishengit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybaties2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kaishengit.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyUtilTest" />
+      <option name="METHOD_NAME" value="updateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyUtilTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kaishengit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybaties2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kaishengit.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyUtilTest" />
+      <option name="METHOD_NAME" value="deleteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyUtilTest.findAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kaishengit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybaties2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kaishengit.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyUtilTest" />
+      <option name="METHOD_NAME" value="findAllTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -807,12 +905,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MyUtilTest.TestLoadXml" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyUtilTest.saveTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyUtilTest.updateTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyUtilTest.deleteTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyUtilTest.findAllTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyUtilTest.TestLoadXml" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyUtilTest.findAllTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyUtilTest.deleteTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyUtilTest.updateTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyUtilTest.saveTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MyUtilTest.TestLoadXml" />
       </list>
     </recent_temporary>
   </component>
@@ -823,32 +929,47 @@
       <created>1467022373191</created>
       <option name="number" value="Default" />
       <updated>1467022373191</updated>
-      <workItem from="1467022376211" duration="3033000" />
+      <workItem from="1467022376211" duration="5002000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyUtilTest_TestLoadXml - 2016.06.27 at 20h 44m 05s.xml">
-      <configuration name="MyUtilTest.TestLoadXml" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyUtilTest_TestLoadXml - 2016.06.27 at 20h 45m 17s.xml">
-      <configuration name="MyUtilTest.TestLoadXml" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyUtilTest_TestLoadXml - 2016.06.27 at 20h 46m 16s.xml">
-      <configuration name="MyUtilTest.TestLoadXml" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyUtilTest_TestLoadXml - 2016.06.27 at 20h 47m 35s.xml">
       <configuration name="MyUtilTest.TestLoadXml" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MyUtilTest_TestLoadXml - 2016.06.27 at 20h 48m 31s.xml">
       <configuration name="MyUtilTest.TestLoadXml" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyUtilTest_deleteTest - 2016.06.27 at 21h 20m 56s.xml">
+      <configuration name="MyUtilTest.deleteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyUtilTest_findAllTest - 2016.06.27 at 21h 25m 05s.xml">
+      <configuration name="MyUtilTest.findAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyUtilTest_saveTest - 2016.06.27 at 21h 08m 38s.xml">
+      <configuration name="MyUtilTest.saveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyUtilTest_saveTest - 2016.06.27 at 21h 10m 02s.xml">
+      <configuration name="MyUtilTest.saveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyUtilTest_updateTest - 2016.06.27 at 21h 15m 39s.xml">
+      <configuration name="MyUtilTest.updateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyUtilTest_updateTest - 2016.06.27 at 21h 16m 26s.xml">
+      <configuration name="MyUtilTest.updateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyUtilTest_updateTest - 2016.06.27 at 21h 17m 23s.xml">
+      <configuration name="MyUtilTest.updateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyUtilTest_updateTest - 2016.06.27 at 21h 18m 28s.xml">
+      <configuration name="MyUtilTest.updateTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3033000" />
+    <option name="totallyTimeSpent" value="5002000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="28" width="1378" height="732" extended-state="0" />
+    <frame x="-173" y="21" width="1378" height="732" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -980,13 +1101,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.090909">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-          <folding>
-            <marker date="1467030812345" expanded="true" signature="313:372" placeholder="SELECT id,na... admin" />
-          </folding>
+        <state vertical-scroll-proportion="0.39411765">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -998,18 +1117,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.060606">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
+        <state vertical-scroll-proportion="-6.060606">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <marker date="1467033901220" expanded="true" signature="313:372" placeholder="SELECT id,na... admin" />
+            <marker date="1467033901220" expanded="true" signature="460:542" placeholder="INSERT INTO admin... " />
+            <marker date="1467033901220" expanded="true" signature="633:708" placeholder="UPDATE admin... " />
+            <marker date="1467033901220" expanded="true" signature="776:810" placeholder="DELETE FROM " />
+            <marker date="1467033901220" expanded="true" signature="898:940" placeholder="SELECT id,na... admin" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48257372">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.09919571">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
