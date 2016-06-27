@@ -5,5 +5,16 @@
     <select id="findById" parameterType="int" resultType="com.kaishengit.pojo.Admin">
         SELECT id,name,password,address FROM admin WHERE id = #{id}
     </select>
-
+    <insert id="save" parameterType="com.kaishengit.pojo.Admin">
+        INSERT INTO admin(name, password, address) VALUES (#{name},#{password},#{address})
+    </insert>
+    <update id="update" parameterType="com.kaishengit.pojo.Admin">
+        UPDATE admin SET password = #{password},address=#{address} WHERE id = #{id}
+    </update>
+    <delete id="delete" parameterType="int">
+        DELETE FROM admin WHERE id = #{id}
+    </delete>
+    <select id="findAll" resultType="com.kaishengit.pojo.Admin">
+        SELECT id,name,password,address FROM admin
+    </select>
 </mapper>

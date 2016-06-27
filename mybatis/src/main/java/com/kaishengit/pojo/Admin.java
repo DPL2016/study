@@ -1,6 +1,16 @@
 package com.kaishengit.pojo;
 
 public class Admin {
+    private Integer id;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     private String name;
     private String password;
     private String address;
@@ -32,7 +42,8 @@ public class Admin {
     @Override
     public String toString() {
         return "Admin{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", password='" + password + '\'' +
                 ", address='" + address + '\'' +
                 '}';
