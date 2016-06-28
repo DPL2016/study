@@ -1,6 +1,15 @@
 package com.kaishengit.pojo;
 
 public class Admin {
+    public Admin() {
+    }
+
+    public Admin(String name, String password, String address) {
+        this.name = name;
+        this.password = password;
+        this.address = address;
+    }
+
     private Integer id;
 
     public Integer getId() {

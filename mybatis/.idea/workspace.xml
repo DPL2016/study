@@ -2,57 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09b51a6b-bffb-4e4b-853a-681b8058db99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/AdminMapper.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/artifacts/mybaties2_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/artifacts/mybaties2_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/dataSources.ids" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_33.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/mybaties2.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/src/main/java/com/kaishengit/pojo/Admin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/src/main/java/com/kaishengit/util/MyBatisUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/src/main/resources/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/src/main/resources/mapper/AdminMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/src/main/resources/mybatis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/src/main/webapp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/src/test/java/com/kaishengit/test/MyUtilTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/target/classes/com/kaishengit/pojo/Admin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/target/classes/com/kaishengit/test/MyUtilTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/target/classes/com/kaishengit/util/MyBatisUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/target/classes/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/target/classes/mapper/AdminMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../mybaties2/target/classes/mybatis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/test/MyBatisTestCase.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/mybatis_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/mybatis_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kaishengit/test/MybatisInterfaceTestCase.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis.iml" afterPath="$PROJECT_DIR$/mybatis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/AdminMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/AdminMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/Admin.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/Admin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis.xml" />
     </list>
     <ignored path="mybatis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,23 +65,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mybatis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <file leaf-file-name="MyBatisTestCase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.939394">
-              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-              <folding />
+            <state vertical-scroll-proportion="0.32413793">
+              <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyBatisTestCase.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java">
+      <file leaf-file-name="AdminMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63446474">
-              <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+            <state vertical-scroll-proportion="-0.8484849">
+              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1467085837206" expanded="true" signature="284:343" placeholder="SELECT id,na... admin" />
+                <marker date="1467085837206" expanded="true" signature="452:534" placeholder="INSERT INTO admin... " />
+                <marker date="1467085837206" expanded="true" signature="604:679" placeholder="UPDATE admin... " />
+                <marker date="1467085837206" expanded="true" signature="747:781" placeholder="DELETE FROM " />
+                <marker date="1467085837206" expanded="true" signature="849:891" placeholder="SELECT id,na... admin" />
+                <marker date="1467085837206" expanded="true" signature="988:1080" placeholder="SELECT id,na... admin" />
+                <marker date="1467085837206" expanded="true" signature="1156:1248" placeholder="SELECT id,na... admin" />
+                <marker date="1467085837206" expanded="true" signature="1325:1374" placeholder="INSERT INTO admin... " />
+                <marker date="1467085837206" expanded="true" signature="1610:1658" placeholder="SELECT id,na... " />
+                <marker date="1467085837206" expanded="true" signature="1610:1661" placeholder="SELECT id,na... " />
+                <marker date="1467085837206" expanded="true" signature="1610:1664" placeholder="SELECT id,na... " />
               </folding>
             </state>
           </provider>
@@ -133,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/AdminMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,8 +116,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -164,13 +134,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/util/MybatisUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/Admin.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/04f84ce4-382c-443d-9c05-b57ebb87129f/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kaishengit/test/MybatisInterfaceTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/AdminMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
       </list>
     </option>
   </component>
@@ -193,10 +164,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-287" />
+    <option name="width" value="1378" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -449,33 +419,7 @@
       <recent name="E:\webtest\idea\mybatis\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTestCase.findAllTest">
-    <configuration default="false" name="MyBatisTestCase.testLoadXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kaishengit.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kaishengit.test" />
-      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyBatisTestCase" />
-      <option name="METHOD_NAME" value="testLoadXml" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyBatisTestCase.findByIds">
     <configuration default="false" name="MyBatisTestCase.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -502,58 +446,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MyBatisTestCase.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kaishengit.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kaishengit.test" />
-      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyBatisTestCase" />
-      <option name="METHOD_NAME" value="updateTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MyBatisTestCase.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kaishengit.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kaishengit.test" />
-      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyBatisTestCase" />
-      <option name="METHOD_NAME" value="deleteTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="MyBatisTestCase.findAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -567,6 +459,84 @@
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
       <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyBatisTestCase" />
       <option name="METHOD_NAME" value="findAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MybatisInterfaceTestCase.testInterface" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kaishengit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kaishengit.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MybatisInterfaceTestCase" />
+      <option name="METHOD_NAME" value="testInterface" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyBatisTestCase.bathSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kaishengit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kaishengit.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyBatisTestCase" />
+      <option name="METHOD_NAME" value="bathSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyBatisTestCase.findByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kaishengit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kaishengit.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyBatisTestCase" />
+      <option name="METHOD_NAME" value="findByIds" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -991,19 +961,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.testLoadXml" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.saveTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.updateTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.deleteTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.findAllTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.saveTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.findAllTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MybatisInterfaceTestCase.testInterface" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.bathSave" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.findByIds" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.findAllTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.deleteTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.updateTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.saveTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.testLoadXml" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.findByIds" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.bathSave" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.saveTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MybatisInterfaceTestCase.testInterface" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.findAllTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1015,61 +985,61 @@
       <option name="number" value="Default" />
       <updated>1467013909360</updated>
       <workItem from="1467013912359" duration="8448000" />
-      <workItem from="1467080148567" duration="1255000" />
+      <workItem from="1467080148567" duration="5692000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyBatisTestCase_deleteTest - 2016.06.28 at 10h 32m 19s.xml">
-      <configuration name="MyBatisTestCase.deleteTest" configurationId="JUnit" />
+    <history-entry file="MyBatisTestCase_bathSave - 2016.06.28 at 11h 35m 56s.xml">
+      <configuration name="MyBatisTestCase.bathSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTestCase_deleteTest - 2016.06.28 at 10h 32m 40s.xml">
-      <configuration name="MyBatisTestCase.deleteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyBatisTestCase_findAllTest - 2016.06.28 at 10h 22m 50s.xml">
-      <configuration name="MyBatisTestCase.findAllTest" configurationId="JUnit" />
+    <history-entry file="MyBatisTestCase_bathSave - 2016.06.28 at 11h 36m 25s.xml">
+      <configuration name="MyBatisTestCase.bathSave" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MyBatisTestCase_findAllTest - 2016.06.28 at 10h 35m 46s.xml">
       <configuration name="MyBatisTestCase.findAllTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTestCase_saveTest - 2016.06.28 at 10h 29m 45s.xml">
+    <history-entry file="MyBatisTestCase_findByIds - 2016.06.28 at 11h 48m 40s.xml">
+      <configuration name="MyBatisTestCase.findByIds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTestCase_findByIds - 2016.06.28 at 11h 49m 17s.xml">
+      <configuration name="MyBatisTestCase.findByIds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTestCase_findByIds - 2016.06.28 at 11h 50m 40s.xml">
+      <configuration name="MyBatisTestCase.findByIds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTestCase_saveTest - 2016.06.28 at 11h 17m 28s.xml">
       <configuration name="MyBatisTestCase.saveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTestCase_testLoadXml - 2016.06.28 at 10h 28m 21s.xml">
-      <configuration name="MyBatisTestCase.testLoadXml" configurationId="JUnit" />
+    <history-entry file="MybatisInterfaceTestCase_testInterface - 2016.06.28 at 11h 00m 18s.xml">
+      <configuration name="MybatisInterfaceTestCase.testInterface" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTestCase_updateTest - 2016.06.27 at 17h 43m 04s.xml">
-      <configuration name="MyBatisTestCase.updateTest" configurationId="JUnit" />
+    <history-entry file="MybatisInterfaceTestCase_testInterface - 2016.06.28 at 11h 01m 04s.xml">
+      <configuration name="MybatisInterfaceTestCase.testInterface" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTestCase_updateTest - 2016.06.27 at 17h 45m 17s.xml">
-      <configuration name="MyBatisTestCase.updateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyBatisTestCase_updateTest - 2016.06.27 at 17h 45m 51s.xml">
-      <configuration name="MyBatisTestCase.updateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyBatisTestCase_updateTest - 2016.06.28 at 10h 31m 24s.xml">
-      <configuration name="MyBatisTestCase.updateTest" configurationId="JUnit" />
+    <history-entry file="MybatisInterfaceTestCase_testInterface - 2016.06.28 at 11h 14m 57s.xml">
+      <configuration name="MybatisInterfaceTestCase.testInterface" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9703000" />
+    <option name="totallyTimeSpent" value="14140000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-287" y="0" width="1378" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5030257" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45932204" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18986385" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19044006" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1131,14 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/util/MybatisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.10877193">
@@ -1153,31 +1115,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3324397">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/04f84ce4-382c-443d-9c05-b57ebb87129f/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.939394">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,16 +1130,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.17790262">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24955437">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/MybatisInterfaceTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
-            <marker date="1467080561994" expanded="true" signature="284:343" placeholder="SELECT id,na... admin" />
-            <marker date="1467080561994" expanded="true" signature="411:493" placeholder="INSERT INTO admin... " />
-            <marker date="1467080561994" expanded="true" signature="563:638" placeholder="UPDATE admin... " />
-            <marker date="1467080561994" expanded="true" signature="706:740" placeholder="DELETE FROM " />
-            <marker date="1467080561994" expanded="true" signature="808:850" placeholder="SELECT id,na... admin" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1206,17 +1167,37 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/AdminMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8484849">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding>
+            <marker date="1467085837206" expanded="true" signature="284:343" placeholder="SELECT id,na... admin" />
+            <marker date="1467085837206" expanded="true" signature="452:534" placeholder="INSERT INTO admin... " />
+            <marker date="1467085837206" expanded="true" signature="604:679" placeholder="UPDATE admin... " />
+            <marker date="1467085837206" expanded="true" signature="747:781" placeholder="DELETE FROM " />
+            <marker date="1467085837206" expanded="true" signature="849:891" placeholder="SELECT id,na... admin" />
+            <marker date="1467085837206" expanded="true" signature="988:1080" placeholder="SELECT id,na... admin" />
+            <marker date="1467085837206" expanded="true" signature="1156:1248" placeholder="SELECT id,na... admin" />
+            <marker date="1467085837206" expanded="true" signature="1325:1374" placeholder="INSERT INTO admin... " />
+            <marker date="1467085837206" expanded="true" signature="1610:1658" placeholder="SELECT id,na... " />
+            <marker date="1467085837206" expanded="true" signature="1610:1661" placeholder="SELECT id,na... " />
+            <marker date="1467085837206" expanded="true" signature="1610:1664" placeholder="SELECT id,na... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63446474">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.32413793">
+          <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -5,7 +5,7 @@
     <select id="findById" parameterType="int" resultType="Admin">
         SELECT id,name,password,address FROM admin WHERE id = #{id}
     </select>
-    <insert id="save" parameterType="Admin">
+    <insert id="save" parameterType="Admin" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO admin(name, password, address) VALUES (#{name},#{password},#{address})
     </insert>
     <update id="update" parameterType="Admin">
@@ -16,5 +16,26 @@
     </delete>
     <select id="findAll" resultType="Admin">
         SELECT id,name,password,address FROM admin
+    </select>
+    <select id="findByQueryParam" parameterType="map" resultType="Admin">
+        SELECT id,name,password,address FROM admin WHERE password=#{password} AND address=#{address}
+
+    </select>
+
+    <select id="findByParams"  resultType="Admin">
+        SELECT id,name,password,address FROM admin WHERE password=#{password} AND address=#{address}
+    </select>
+    
+    <insert id="bathSave" parameterType="list" >
+        INSERT INTO admin(name, password, address) VALUES
+        <foreach collection="list" item="admin" separator=",">
+            (#{admin.name},#{admin.password},#{admin.address})
+        </foreach>
+    </insert>
+    <select id="findByIds" parameterType="list" resultType="Admin">
+        SELECT id,name,password,address FROM admin WHERE id IN
+        <foreach collection="list" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
     </select>
 </mapper>

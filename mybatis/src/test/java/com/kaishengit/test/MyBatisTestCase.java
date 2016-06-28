@@ -1,5 +1,7 @@
 package com.kaishengit.test;
 
+import com.google.common.collect.Lists;
+import com.kaishengit.mapper.AdminMapper;
 import com.kaishengit.pojo.Admin;
 import com.kaishengit.util.MybatisUtil;
 import org.apache.ibatis.io.Resources;
@@ -51,11 +53,12 @@ public class MyBatisTestCase {
         }*/
         SqlSession sqlSession = MybatisUtil.getSqlSession();
         Admin admin = new Admin();
-        admin.setName("jack");
-        admin.setPassword("123123");
+        admin.setName("ming");
+        admin.setPassword("123123124");
         admin.setAddress("1112222@qq.com");
         sqlSession.insert("save",admin);
         sqlSession.commit();
+        logger.debug("{}",admin.getId());
         sqlSession.close();
     }
     @Test
@@ -85,4 +88,31 @@ public class MyBatisTestCase {
         }
         Assert.assertEquals(4,adminList.size());
     }
+
+    @Test
+    public void bathSave(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        AdminMapper adminMapper = sqlSession.getMapper(AdminMapper.class);
+        List<Admin> adminList = Lists.newArrayList();
+        adminList.add(new Admin("n1","m1","c1"));
+        adminList.add(new Admin("n2","m2","c2"));
+        adminList.add(new Admin("n3","m3","c3"));
+        adminList.add(new Admin("n4","m4","c4"));
+        adminMapper.bathSave(adminList);
+        sqlSession.commit();
+        sqlSession.close();
+    }
+
+    @Test
+    public void findByIds(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        AdminMapper adminMapper = sqlSession.getMapper(AdminMapper.class);
+        List<Integer> idLists = Lists.newArrayList(3,6,9,20,21);
+        List<Admin> adminList = adminMapper.findByIds(idLists);
+        for (Admin admin: adminList) {
+            System.out.println(admin);
+        }
+        sqlSession.close();
+    }
+
 }
