@@ -1,6 +1,7 @@
 package com.kaishengit.test;
 
 import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
 import com.kaishengit.mapper.AdminMapper;
 import com.kaishengit.pojo.Admin;
 import com.kaishengit.util.MybatisUtil;
@@ -16,6 +17,7 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.io.Reader;
 import java.util.List;
+import java.util.Map;
 
 public class MyBatisTestCase {
     private Logger logger = LoggerFactory.getLogger(MyBatisTestCase.class);
@@ -113,6 +115,19 @@ public class MyBatisTestCase {
             System.out.println(admin);
         }
         sqlSession.close();
+    }
+
+    @Test
+    public void queryByParasTest(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        AdminMapper adminMapper = sqlSession.getMapper(AdminMapper.class);
+        Map<String,Object>params = Maps.newHashMap();
+        params.put("name","lucy");
+       // params.put("password",11111);
+        //params.put("address","1542294533@qq.com");
+        Admin admin = adminMapper.queryByParas(params);
+        logger.debug("{}",admin);
+        Assert.assertNotNull(admin);
     }
 
 }

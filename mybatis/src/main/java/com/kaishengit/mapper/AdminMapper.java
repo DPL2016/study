@@ -16,4 +16,5 @@ public interface AdminMapper {
     Admin findByParams(@Param("password") String password, @Param("address") String address);
     void bathSave(List<Admin> adminList);
     List<Admin> findByIds(List<Integer> idList);
+    Admin queryByParas(Map<String,Object>params);
 }
