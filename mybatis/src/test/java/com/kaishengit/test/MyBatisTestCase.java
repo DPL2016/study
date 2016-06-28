@@ -178,7 +178,7 @@ public class MyBatisTestCase {
         Map<String,Object>params = Maps.newHashMap();
         params.put("name","lucy");
        // params.put("password",11111);
-        //params.put("address","1542294533@qq.com");
+        params.put("address","1542294533@qq.com");
         Admin admin = adminMapper.queryByParas(params);
         logger.debug("{}",admin);
         Assert.assertNotNull(admin);

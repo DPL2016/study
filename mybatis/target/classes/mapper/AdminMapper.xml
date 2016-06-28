@@ -38,18 +38,33 @@
             #{id}
         </foreach>
     </select>
+
     <select id="queryByParas" parameterType="map" resultType="Admin">
         SELECT id,name,password,address FROM admin
-        <where>
-            <if test="name!=null and name!=''">
+        <!--<where>-->
+            <!--<if test="name!=null and name!=''">-->
+                <!--name = #{name}-->
+            <!--</if>-->
+            <!--<if test="password!=null and password!=''">-->
+                <!--AND password = #{password}-->
+            <!--</if>-->
+            <!--<if test="address!=null and address!='' ">-->
+                <!--AND address = #{address}-->
+            <!--</if>-->
+        <!--</where>-->
+        <trim prefix="where" prefixOverrides="and|or">
+            <if test="name!=null and name!='' ">
                 name = #{name}
             </if>
-            <if test="password!=null and password!=''">
-                AND password = #{password}
-            </if>
-            <if test="address!=null and address!='' ">
-                AND address = #{address}
-            </if>
-        </where>
+            <choose>
+                <when test="password!=null and password!=''">
+                    AND password = #{password}
+                </when>
+                <when test="email!=null and password!='' ">
+                    AND address = #{address}
+                </when>
+            </choose>
+        </trim>
     </select>
+
 </mapper>
