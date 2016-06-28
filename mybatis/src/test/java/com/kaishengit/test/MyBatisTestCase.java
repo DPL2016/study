@@ -28,7 +28,7 @@ public class MyBatisTestCase {
             SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
             SqlSession sqlSession = sqlSessionFactory.openSession();
 
-            Admin admin = sqlSession.selectOne("findById",7);
+            Admin admin = sqlSession.selectOne("com.kaishengit.mapper.AdminMapper.findById",9);
             logger.debug("{}",admin);
             sqlSession.close();
             Assert.assertNotNull(admin);
@@ -58,37 +58,91 @@ public class MyBatisTestCase {
         admin.setName("ming");
         admin.setPassword("123123124");
         admin.setAddress("1112222@qq.com");
-        sqlSession.insert("save",admin);
+        sqlSession.insert("com.kaishengit.mapper.AdminMapper.save",admin);
         sqlSession.commit();
         logger.debug("{}",admin.getId());
         sqlSession.close();
     }
+
+    //Mapper
+    @Test
+    public void saveMapperTest(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        AdminMapper mapper = sqlSession.getMapper(AdminMapper.class);
+        Admin admin = new Admin();
+        admin.setName("ming");
+        admin.setPassword("123123124");
+        admin.setAddress("1112222@qq.com");
+        mapper.save(admin);
+        sqlSession.commit();
+        logger.debug("{}",admin.getId());
+        sqlSession.close();
+    }
+
     @Test
     public void updateTest(){
         SqlSession sqlSession = MybatisUtil.getSqlSession();
         Admin admin = sqlSession.selectOne("findById",9);
         admin.setPassword("666666666");
         admin.setAddress("222222222222@qq.com");
-        sqlSession.update("update",admin);
+        sqlSession.update("com.kaishengit.mapper.AdminMapper.update",admin);
         sqlSession.commit();
         sqlSession.close();
     }
+
+    //mapper
+    @Test
+    public void updateMapperTest(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        AdminMapper mapper = sqlSession.getMapper(AdminMapper.class);
+        Admin admin = mapper.findById(9);
+        admin.setPassword("666666666");
+        admin.setAddress("222222222222@qq.com");
+        mapper.update(admin);
+        sqlSession.commit();
+        sqlSession.close();
+    }
+
     @Test
     public void deleteTest(){
        SqlSession sqlSession =  MybatisUtil.getSqlSession();
-        sqlSession.delete("delete",7);
+        sqlSession.delete("com.kaishengit.mapper.AdminMapper.delete",7);
         sqlSession.commit();
         sqlSession.close();
     }
+
+    //mapper
+    @Test
+    public void deleteMapperTest(){
+        SqlSession sqlSession =  MybatisUtil.getSqlSession();
+        AdminMapper mapper = sqlSession.getMapper(AdminMapper.class);
+        mapper.delete(20);
+        sqlSession.commit();
+        sqlSession.close();
+    }
+
     @Test
     public void findAllTest(){
         SqlSession sqlSession = MybatisUtil.getSqlSession();
-        List<Admin> adminList = sqlSession.selectList("findAll");
+        List<Admin> adminList = sqlSession.selectList("com.kaishengit.mapper.AdminMapper.findAll");
         sqlSession.close();
         for(Admin admin : adminList){
             System.out.println(admin);
         }
-        Assert.assertEquals(4,adminList.size());
+        Assert.assertEquals(9,adminList.size());
+    }
+
+    //mapper
+    @Test
+    public void findAllMapperTest(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        AdminMapper adminMapper = sqlSession.getMapper(AdminMapper.class);
+        List<Admin> adminList = adminMapper.findAll();
+        sqlSession.close();
+        for(Admin admin : adminList){
+            System.out.println(admin);
+        }
+        Assert.assertEquals(9,adminList.size());
     }
 
     @Test

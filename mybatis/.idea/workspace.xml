@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09b51a6b-bffb-4e4b-853a-681b8058db99" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/AdminMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/AdminMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java" />
     </list>
     <ignored path="mybatis.iws" />
@@ -62,8 +60,8 @@
       <file leaf-file-name="MyBatisTestCase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19655173">
-              <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+            <state vertical-scroll-proportion="-1.5953654">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,8 +169,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="188" />
-    <option name="y" value="9" />
+    <option name="x" value="-135" />
+    <option name="y" value="34" />
     <option name="width" value="1378" />
     <option name="height" value="723" />
   </component>
@@ -427,8 +425,8 @@
       <recent name="E:\webtest\idea\mybatis\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTestCase.queryByParasTest">
-    <configuration default="false" name="MyBatisTestCase.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyBatisTestCase.saveMapperTest">
+    <configuration default="false" name="MyBatisTestCase.testLoadXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.kaishengit.test.*" />
@@ -440,7 +438,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
       <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyBatisTestCase" />
-      <option name="METHOD_NAME" value="saveTest" />
+      <option name="METHOD_NAME" value="testLoadXml" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -454,7 +452,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MybatisInterfaceTestCase.testInterface" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MyBatisTestCase.findAllMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.kaishengit.test.*" />
@@ -465,8 +463,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
-      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MybatisInterfaceTestCase" />
-      <option name="METHOD_NAME" value="testInterface" />
+      <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyBatisTestCase" />
+      <option name="METHOD_NAME" value="findAllMapperTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -480,7 +478,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MyBatisTestCase.bathSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MyBatisTestCase.deleteMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.kaishengit.test.*" />
@@ -492,7 +490,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
       <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyBatisTestCase" />
-      <option name="METHOD_NAME" value="bathSave" />
+      <option name="METHOD_NAME" value="deleteMapperTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -506,7 +504,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MyBatisTestCase.findByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MyBatisTestCase.updateMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.kaishengit.test.*" />
@@ -518,7 +516,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
       <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyBatisTestCase" />
-      <option name="METHOD_NAME" value="findByIds" />
+      <option name="METHOD_NAME" value="updateMapperTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -532,7 +530,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MyBatisTestCase.queryByParasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MyBatisTestCase.saveMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.kaishengit.test.*" />
@@ -544,7 +542,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.kaishengit.test" />
       <option name="MAIN_CLASS_NAME" value="com.kaishengit.test.MyBatisTestCase" />
-      <option name="METHOD_NAME" value="queryByParasTest" />
+      <option name="METHOD_NAME" value="saveMapperTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -969,19 +967,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.saveTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MybatisInterfaceTestCase.testInterface" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.bathSave" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.findByIds" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.queryByParasTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.testLoadXml" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.findAllMapperTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.deleteMapperTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.updateMapperTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.saveMapperTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.queryByParasTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.findByIds" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.bathSave" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.saveTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MybatisInterfaceTestCase.testInterface" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.saveMapperTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.updateMapperTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.deleteMapperTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.findAllMapperTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MyBatisTestCase.testLoadXml" />
       </list>
     </recent_temporary>
   </component>
@@ -993,28 +991,22 @@
       <option name="number" value="Default" />
       <updated>1467013909360</updated>
       <workItem from="1467013912359" duration="8448000" />
-      <workItem from="1467080148567" duration="6970000" />
+      <workItem from="1467080148567" duration="8532000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyBatisTestCase_bathSave - 2016.06.28 at 11h 35m 56s.xml">
-      <configuration name="MyBatisTestCase.bathSave" configurationId="JUnit" />
+    <history-entry file="MyBatisTestCase_deleteMapperTest - 2016.06.28 at 13h 14m 59s.xml">
+      <configuration name="MyBatisTestCase.deleteMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTestCase_bathSave - 2016.06.28 at 11h 36m 25s.xml">
-      <configuration name="MyBatisTestCase.bathSave" configurationId="JUnit" />
+    <history-entry file="MyBatisTestCase_findAllMapperTest - 2016.06.28 at 13h 13m 11s.xml">
+      <configuration name="MyBatisTestCase.findAllMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTestCase_findByIds - 2016.06.28 at 11h 48m 40s.xml">
-      <configuration name="MyBatisTestCase.findByIds" configurationId="JUnit" />
+    <history-entry file="MyBatisTestCase_findAllTest - 2016.06.28 at 13h 03m 46s.xml">
+      <configuration name="MyBatisTestCase.findAllTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTestCase_findByIds - 2016.06.28 at 11h 49m 17s.xml">
-      <configuration name="MyBatisTestCase.findByIds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyBatisTestCase_findByIds - 2016.06.28 at 11h 50m 40s.xml">
-      <configuration name="MyBatisTestCase.findByIds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyBatisTestCase_queryByParasTest - 2016.06.28 at 12h 51m 23s.xml">
-      <configuration name="MyBatisTestCase.queryByParasTest" configurationId="JUnit" />
+    <history-entry file="MyBatisTestCase_findAllTest - 2016.06.28 at 13h 04m 04s.xml">
+      <configuration name="MyBatisTestCase.findAllTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MyBatisTestCase_queryByParasTest - 2016.06.28 at 12h 52m 39s.xml">
       <configuration name="MyBatisTestCase.queryByParasTest" configurationId="JUnit" />
@@ -1022,18 +1014,24 @@
     <history-entry file="MyBatisTestCase_queryByParasTest - 2016.06.28 at 12h 53m 07s.xml">
       <configuration name="MyBatisTestCase.queryByParasTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyBatisTestCase_saveTest - 2016.06.28 at 11h 17m 28s.xml">
-      <configuration name="MyBatisTestCase.saveTest" configurationId="JUnit" />
+    <history-entry file="MyBatisTestCase_saveMapperTest - 2016.06.28 at 13h 18m 37s.xml">
+      <configuration name="MyBatisTestCase.saveMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisInterfaceTestCase_testInterface - 2016.06.28 at 11h 14m 57s.xml">
-      <configuration name="MybatisInterfaceTestCase.testInterface" configurationId="JUnit" />
+    <history-entry file="MyBatisTestCase_testLoadXml - 2016.06.28 at 13h 09m 03s.xml">
+      <configuration name="MyBatisTestCase.testLoadXml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTestCase_testLoadXml - 2016.06.28 at 13h 09m 37s.xml">
+      <configuration name="MyBatisTestCase.testLoadXml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTestCase_updateMapperTest - 2016.06.28 at 13h 16m 46s.xml">
+      <configuration name="MyBatisTestCase.updateMapperTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15418000" />
+    <option name="totallyTimeSpent" value="16980000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="188" y="9" width="1378" height="723" extended-state="0" />
+    <frame x="-135" y="34" width="1378" height="723" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1044,7 +1042,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5030257" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45932204" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45932204" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19044006" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -1205,8 +1203,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kaishengit/test/MyBatisTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19655173">
-          <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+        <state vertical-scroll-proportion="-1.5953654">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
