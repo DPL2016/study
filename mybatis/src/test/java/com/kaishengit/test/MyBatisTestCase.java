@@ -24,7 +24,7 @@ public class MyBatisTestCase {
             SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);
             SqlSession sqlSession = sqlSessionFactory.openSession();
 
-            Admin admin = sqlSession.selectOne("com.kaishengit.mapper.AdminMapper.findById",7);
+            Admin admin = sqlSession.selectOne("findById",7);
             logger.debug("{}",admin);
             sqlSession.close();
             Assert.assertNotNull(admin);
@@ -51,34 +51,34 @@ public class MyBatisTestCase {
         }*/
         SqlSession sqlSession = MybatisUtil.getSqlSession();
         Admin admin = new Admin();
-        admin.setName("xiaoxiao");
+        admin.setName("jack");
         admin.setPassword("123123");
-        admin.setAddress("11125541@qq.com");
-        sqlSession.insert("com.kaishengit.mapper.AdminMapper.save",admin);
+        admin.setAddress("1112222@qq.com");
+        sqlSession.insert("save",admin);
         sqlSession.commit();
         sqlSession.close();
     }
     @Test
     public void updateTest(){
         SqlSession sqlSession = MybatisUtil.getSqlSession();
-        Admin admin = sqlSession.selectOne("com.kaishengit.mapper.AdminMapper.findById",9);
-        admin.setPassword("123456");
-        admin.setAddress("147258369@qq.com");
-        sqlSession.update("com.kaishengit.mapper.AdminMapper.update",admin);
+        Admin admin = sqlSession.selectOne("findById",9);
+        admin.setPassword("666666666");
+        admin.setAddress("222222222222@qq.com");
+        sqlSession.update("update",admin);
         sqlSession.commit();
         sqlSession.close();
     }
     @Test
     public void deleteTest(){
        SqlSession sqlSession =  MybatisUtil.getSqlSession();
-        sqlSession.delete("com.kaishengit.mapper.AdminMapper.delete",8);
+        sqlSession.delete("delete",7);
         sqlSession.commit();
         sqlSession.close();
     }
     @Test
     public void findAllTest(){
         SqlSession sqlSession = MybatisUtil.getSqlSession();
-        List<Admin> adminList = sqlSession.selectList("com.kaishengit.mapper.AdminMapper.findAll");
+        List<Admin> adminList = sqlSession.selectList("findAll");
         sqlSession.close();
         for(Admin admin : adminList){
             System.out.println(admin);
