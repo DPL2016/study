@@ -17,12 +17,12 @@
         WHERE borrow.id = #{id}
     </select>
     <resultMap id="borrowMap" type="Borrow">
-        <association property="book" javaType="com.kaishengit.pojo.Book" column="aa">
+        <association property="book" javaType="com.kaishengit.pojo.Book" column="bid">
             <id column="bid" property="id"/>
             <result column="code" property="code"/>
             <result property="title" column="title"/>
         </association>
-        <association property="card" javaType="com.kaishengit.pojo.Card" column="bb">
+        <association property="card" javaType="com.kaishengit.pojo.Card" column="cid">
             <id column="cid" property="id"/>
             <result property="code" column="code"/>
             <result property="name" column="name"/>

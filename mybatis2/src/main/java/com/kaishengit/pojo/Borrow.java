@@ -1,7 +1,9 @@
 package com.kaishengit.pojo;
+import java.io.Serializable;
 import java.util.Date;
 
-public class Borrow {
+public class Borrow implements Serializable {
+    private static final long serialVersionUID = 6036425242343458725L;
     private Integer id;
     private String bid;
     private String cid;

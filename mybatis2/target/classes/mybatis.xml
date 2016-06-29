@@ -20,6 +20,7 @@
     </environments>
     <mappers>
         <mapper resource="mapper/AdminMapper.xml"></mapper>
+        <mapper class="com.kaishengit.mapper.AdminMapper"></mapper>
         <mapper resource="mapper/BorrowMapper.xml"></mapper>
     </mappers>
 </configuration>

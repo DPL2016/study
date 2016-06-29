@@ -95,7 +95,7 @@ public class MyUtilTest {
     @Test
     public void deleteTest(){
         SqlSession sqlSession = MyBatisUtil.getSqlSession();
-        sqlSession.delete("com.kaishengit.mapper.AdminMapper.delete",12);
+        sqlSession.delete("com.kaishengit.mapper.AdminMapper.delete",31);
         sqlSession.commit();
         sqlSession.close();
     }
@@ -145,7 +145,7 @@ public class MyUtilTest {
     public void findByParamsTest(){
         SqlSession sqlSession = MyBatisUtil.getSqlSession();
         AdminMapper adminMapper = sqlSession.getMapper(AdminMapper.class);
-        Admin admin = adminMapper.findByParams("m1","n1");
+        Admin admin = adminMapper.findByParams("n1","m1");
     }
 
     @Test

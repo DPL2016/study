@@ -1,6 +1,9 @@
 package com.kaishengit.pojo;
 
-public class Book {
+import java.io.Serializable;
+
+public class Book implements Serializable{
+    private static final long serialVersionUID = 7873122131096848909L;
     private Integer id;
     private String code;
     private String title;

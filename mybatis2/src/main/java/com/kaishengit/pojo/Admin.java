@@ -3,6 +3,7 @@ package com.kaishengit.pojo;
 import java.io.Serializable;
 
 public class Admin implements Serializable {
+    private static final long serialVersionUID = 2317215739545404614L;
     private Integer id;
     private String name;
     private String password;
