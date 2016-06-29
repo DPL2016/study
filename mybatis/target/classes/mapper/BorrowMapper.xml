@@ -2,7 +2,9 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.kaishengit.mapper.BorrowMapper">
-
+    <!--<cache/> 一级缓存-->
+    <!--二级缓存-->
+    <!--<cache eviction="FIFO" flushInterval="60000" size="512" readOnly="true"/>-->
 
     <!--OJNL -->
     <!--<select id="findById" parameterType="int" resultType="com.kaishengit.pojo.Borrow">
@@ -25,7 +27,7 @@
         <result property="bid" column="bid"/>
         <result property="cid" column="cid"/>
         <result property="btime" column="btime"/>
-        <association property="book" javaType="com.kaishengit.pojo.Book" column="bid">
+        <association property="book" javaType="com.kaishengit.pojo.Book" column="id">
             <id column="bid" property="id"/>
             <result column="code" property="code"/>
             <result column="title" property="title"/>

@@ -3,19 +3,65 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.kaishengit.mapper.AdminMapper">
-    <select id="findById" parameterType="int" resultType="com.kaishengit.pojo.Admin">
+    <select id="findById" parameterType="int" resultType="Admin">
         SELECT id,name,password,address FROM admin WHERE id = #{id}
     </select>
-    <insert id="save" parameterType="com.kaishengit.pojo.Admin">
+    <insert id="save" parameterType="Admin" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO admin(name, password, address) VALUES (#{name},#{password},#{address});
     </insert>
-    <update id="update" parameterType="com.kaishengit.pojo.Admin">
+    <update id="update" parameterType="Admin">
         UPDATE admin SET password = #{password},address=#{address} WHERE id = #{id}
     </update>
     <delete id="delete" parameterType="int">
         DELETE FROM admin WHERE id = #{id}
     </delete>
-    <select id="findAll" resultType="com.kaishengit.pojo.Admin">
+    <select id="findAll" resultType="Admin">
         SELECT id,name,password,address FROM admin
+    </select>
+    <select id="findByParam" parameterType="map" resultType="Admin">
+        SELECT id,name,password,address FROM admin WHERE name=#{name} AND password=#{password}
+    </select>
+    <select id="findByParams" resultType="Admin">
+        SELECT id,name,password,address FROM admin WHERE name=#{name} AND password=#{password}
+    </select>
+    <insert id="bathSave" parameterType="list">
+        insert into admin (name, password, address) values
+        <foreach collection="list" item="admin" separator=",">
+            (#{admin.name},#{admin.password},#{admin.address})
+        </foreach>
+    </insert>
+    <select id="findByIds" parameterType="list" resultType="Admin">
+        SELECT id,name,password,address FROM admin WHERE id IN
+        <foreach collection="list" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </select>
+    <select id="queryByParas" parameterType="map" resultType="Admin">
+        SELECT id,name,password,address FROM admin
+        <!--<where>
+            <if test="name!=null and name!=''">
+                name = #{name}
+            </if>
+            <if test="password!=null and password!=''">
+                And password = #{password}
+            </if>
+            <if test="address!=null and address!=''">
+                And address = #{address}
+            </if>
+        </where>-->
+
+        <trim prefix="where" prefixOverrides="and|or">
+            <if test="name!=null and password!=''">
+                name = #{name}
+            </if>
+            <choose>
+                <when test="password!=null and password!=''">
+                    AND password = #{password}
+                </when>
+                <when test="address!=null and address!=''">
+                    AND address = #{address}
+                </when>
+            </choose>
+        </trim>
     </select>
 </mapper>

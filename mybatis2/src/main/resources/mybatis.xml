@@ -3,6 +3,10 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <typeAliases>
+        <typeAlias type="com.kaishengit.pojo.Admin" alias="Admin"></typeAlias>
+        <typeAlias type="com.kaishengit.pojo.Borrow" alias="Borrow"></typeAlias>
+    </typeAliases>
     <environments default="dev">
         <environment id="dev">
             <transactionManager type="JDBC"></transactionManager>
@@ -16,5 +20,6 @@
     </environments>
     <mappers>
         <mapper resource="mapper/AdminMapper.xml"></mapper>
+        <mapper resource="mapper/BorrowMapper.xml"></mapper>
     </mappers>
 </configuration>

@@ -1,10 +1,21 @@
 package com.kaishengit.pojo;
 
-public class Admin {
+import java.io.Serializable;
+
+public class Admin implements Serializable {
     private Integer id;
     private String name;
     private String password;
     private String address;
+
+    public Admin() {
+    }
+
+    public Admin(String name, String password, String address) {
+        this.name = name;
+        this.password = password;
+        this.address = address;
+    }
 
     @Override
     public String toString() {
