@@ -2,13 +2,18 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
     <bean id="userDao" class="com.kaishengit.dao.UserDaoImp1"/>
-    <bean id="userDao2" class="com.kaishengit.dao.UserDaoImp2"/>
+    <!--<bean id="userDao2" class="com.kaishengit.dao.UserDaoImp2"/>-->
 
     <!--自动注入-->
-    <bean id="userService" class="com.kaishengit.service.UserService" autowire="constructor"/>
+    <!--<bean id="userService" class="com.kaishengit.service.UserService" autowire="constructor"/>-->
     <!--构造方法注入-->
     <!--<bean id="userService" class="com.kaishengit.service.UserService">
         <constructor-arg name="userDao" ref="userDao"/>
@@ -24,14 +29,14 @@
     <!--set注入-->
     <!--<bean id="userDao" class="com.kaishengit.dao.UserDao" init-method="init" destroy-method="destory" scope="singleton" lazy-init="true"/>-->
     <!--<alias name="userDao" alias="userDao2"/>-->
+    <bean id="userService" class="com.kaishengit.service.UserService">
+    <property name="userDao" ref="userDao"/>
+    </bean>
     <!--<bean id="userService" class="com.kaishengit.service.UserService">-->
-    <!--<property name="userDao" ref="userDao2"/>-->
+              <!--<property name="userDao">-->
+                      <!--<ref bean="userDao"/>-->
+              <!--</property>-->
     <!--</bean>-->
-    <!--  <bean id="userService" class="com.kaishengit.service.UserService">
-              <property name="userDao">
-                      <ref bean="userDao"/>
-              </property>
-      </bean>-->
 
     <!-- <bean id="userService" class="com.kaishengit.service.UserService">
              <property name="userDao">
@@ -41,6 +46,7 @@
     <!--<bean id="userService" class="com.kaishengit.service.UserService" p:userDao-ref="userDao2"/>-->
 
 
+<!--
 
     <bean id="bookService" class="com.kaishengit.service.BookService">
         <property name="bookName" value="java"/>
@@ -72,4 +78,42 @@
         </property>
         <property name="userDao" ref="userDao"></property>
     </bean>
+-->
+
+    <!--<bean id="myAdvice" class="com.kaishengit.aop.MyAdvice">
+        <aop:config>
+            <aop:aspect ref="myAdvice">
+                <aop:pointcut id="myPointCut" expression="execution(* com.kaishengit.dao.UserDaoImp2.*.*(..)"/>
+                <aop:before method="beforeAdvice" pointcut-ref="myPointCut"/>
+                <aop:after-returning method="afterReturningAdvice" pointcut-ref="myPointCut" returning="result"/>
+                <aop:after-throwing method="exceptionAdvice" pointcut-ref="myPointCut" throwing="e"/>
+                <aop:after method="finallyAdvice" pointcut-ref="myPointCut"/>
+            </aop:aspect>
+        </aop:config>
+    </bean>-->
+
+    <bean id="myAdivce" class="com.kaishengit.aop.MyAdvice"/>
+
+    <!--2.-->
+    <aop:config>
+        <!--2.1 引用通知类对象-->
+        <aop:aspect ref="myAdivce">
+            <!--2.2 定义切入点表达式-->
+            <aop:pointcut id="myPointCut" expression="execution(* com.kaishengit.dao..*.*(..))"/>
+
+            <aop:around method="aroundAdvice" pointcut-ref="myPointCut"/>
+
+            <!--&lt;!&ndash;前置通知&ndash;&gt;-->
+            <!--<aop:before method="beforeAdvice" pointcut-ref="myPointCut"/>-->
+            <!--&lt;!&ndash;后置通知&ndash;&gt;-->
+            <!--<aop:after-returning method="afterReturningAdvice" pointcut-ref="myPointCut" returning="result"/>-->
+            <!--&lt;!&ndash;异常通知&ndash;&gt;-->
+            <!--<aop:after-throwing method="exceptionAdvice" pointcut-ref="myPointCut" throwing="e"/>-->
+            <!--&lt;!&ndash;最终通知&ndash;&gt;-->
+            <!--<aop:after method="finallyAdvice" pointcut-ref="myPointCut"/>-->
+
+        </aop:aspect>
+    </aop:config>
+
+
 </beans>
