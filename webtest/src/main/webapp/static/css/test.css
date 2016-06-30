@@ -1,61 +1,108 @@
-
-.aw-top-menu-wrap {
-    background-color: #fff;
+.menu li a {
+    color: #505050;
+    line-height: 4em;
+    display: block;
+    padding: 0 21px;
 }
-.aw-top-menu-wrap {
-    position: relative;
-    z-index: 1001;
-    width: 100%;
-    min-height: 50px;
+
+a {
+    background-color: transparent;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    color: #e67e22;
+    outline: none;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
 }
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-div {
-    display: block;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body, input, button, select, textarea, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Helvetica Neue',STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+.menu li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+html, body {
+    color: #505050;
+    line-height: 1.75em;
+    background: #ebebeb;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
 }
 body {
-    margin: 0;
-    height: 100%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    line-height: 160%;
-    color: #666;
-}
-
-.aw-search-box input {
-    border: 1px solid #ddd;
-}
-.aw-search-box input {
-    width: 260px;
-    height: 32px;
-    padding-right: 30px;
-    border: none;
-}
-.form-control {
-    padding: 6px;
-    resize: none;
-    box-shadow: none;
-}
-
-
-.aw-top-nav .navbar-nav>.active>a, .aw-top-nav .navbar-nav>li>a.active, .aw-top-nav .navbar-nav>.active>a:hover, .aw-top-nav .navbar-nav>li>a.active:hover, .aw-top-nav .navbar-nav>.active>a:focus, .aw-top-nav .navbar-nav>li>a.active:focus {
-    background-color: #fff;
+    line-height: 1.42857143;
     color: #333;
+    background-color: #fff;
+}
+html, body {
+    color: #505050;
+    line-height: 1.75em;
+    background: #ebebeb;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
-.aw-top-nav>nav>ul>li>a.active {
-    background: #4dabff;
-    font-weight: 700;
+a:active, a:hover {
+    outline: 0;
 }
-.aw-top-nav .navbar-nav>li>a {
-    color: #555;
+
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
 }
-.aw-top-nav>nav>ul>li>a {
-    padding: 16px;
+a:hover {
+    color: #e67e22;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
 }
