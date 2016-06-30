@@ -1,7 +1,6 @@
 package com.kaishengit.service;
 
 import com.kaishengit.dao.UserDao;
-
 public class UserService {
     private UserDao userDao;
 
@@ -9,7 +8,7 @@ public class UserService {
         this.userDao = userDao;
     }
     public void sayHello(){
-        System.out.println("hello,spring");
+        System.out.println("hello,Spring");
         userDao.sayHi();
     }
 }

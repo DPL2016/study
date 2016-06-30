@@ -3,10 +3,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
-        <bean id="userDao" class="com.kaishengit.dao.UserDao"/>
+        <bean id="userDao" class="com.kaishengit.dao.UserDaoImp1"/>
+        <bean id="userDao2" class="com.kaishengit.dao.UserDaoImp2"/>
         <!--<bean id="userDao" class="com.kaishengit.dao.UserDao" init-method="init" destroy-method="destory" scope="singleton" lazy-init="true"/>-->
         <!--<alias name="userDao" alias="userDao2"/>-->
         <bean id="userService" class="com.kaishengit.service.UserService">
-                <property name="userDao" ref="userDao"/>
+                <property name="userDao" ref="userDao2"/>
         </bean>
 </beans>
