@@ -2,7 +2,7 @@ package com.kaishengit.dao;
 
 public class UserDao {
     public void sayHi(){
-        System.out.println("hello,Spring");
+        System.out.println("hi,Spring");
     }
 
     public void init() {
