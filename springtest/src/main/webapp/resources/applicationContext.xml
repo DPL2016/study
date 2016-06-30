@@ -6,6 +6,22 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="userDao" class="com.kaishengit.dao.UserDaoImp1"/>
     <bean id="userDao2" class="com.kaishengit.dao.UserDaoImp2"/>
+
+    <!--自动注入-->
+    <bean id="userService" class="com.kaishengit.service.UserService" autowire="constructor"/>
+    <!--构造方法注入-->
+    <!--<bean id="userService" class="com.kaishengit.service.UserService">
+        <constructor-arg name="userDao" ref="userDao"/>
+    </bean>-->
+
+    <!--根据构造方法参数索引-->
+    <!--<bean id="userService" class="com.kaishengit.service.UserService">
+    <constructor-arg index="0" ref="userDao2"/>
+    </bean>-->
+
+
+
+    <!--set注入-->
     <!--<bean id="userDao" class="com.kaishengit.dao.UserDao" init-method="init" destroy-method="destory" scope="singleton" lazy-init="true"/>-->
     <!--<alias name="userDao" alias="userDao2"/>-->
     <!--<bean id="userService" class="com.kaishengit.service.UserService">-->
@@ -25,7 +41,7 @@
     <!--<bean id="userService" class="com.kaishengit.service.UserService" p:userDao-ref="userDao2"/>-->
 
 
-    <!--set注入-->
+
     <bean id="bookService" class="com.kaishengit.service.BookService">
         <property name="bookName" value="java"/>
         <property name="num" value="100"/>
