@@ -30,4 +30,9 @@ public class UserDaoImpl2 implements UserDao {
     public Long count() {
         return null;
     }
+
+    @Override
+    public User findByName(String name) {
+        return null;
+    }
 }
