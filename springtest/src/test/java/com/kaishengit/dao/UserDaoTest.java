@@ -31,4 +31,6 @@ public class UserDaoTest {
     public void testFindById(){
         userMapper.findById(6);
     }
+    @Test
+    public void test
 }

@@ -10,4 +10,7 @@
     <select id="findById" resultType="User" parameterType="int">
         SELECT id, name, password, address FROM user WHERE id=#{id}
     </select>
+    <select id="findAll" resultType="User">
+        SELECT id, name, password, address FROM user
+    </select>
 </mapper>
