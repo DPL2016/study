@@ -1,93 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <beans xmlns="http://www.springframework.org/schema/beans"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns:p="http://www.springframework.org/schema/p"
-               xmlns:aop="http://www.springframework.org/schema/aop"
-               xsi:schemaLocation="http://www.springframework.org/schema/beans
-               http://www.springframework.org/schema/beans/spring-beans.xsd
-               http://www.springframework.org/schema/aop
-               http://www.springframework.org/schema/aop/spring-aop.xsd">
-        <bean id="userDao" class="com.kaishengit.dao.UserDaoImpl1"/>
-        <bean id="userDao2" class="com.kaishengit.dao.UserDaoImpl2"/>
-        <bean id="userService" class="com.kaishengit.service.UserService">
-                <property name="userDao" ref="userDao"/>
-        </bean>
-        <!--1
-        <bean id="userService" class="com.kaishengit.service.UserService">
-                <property name="userDao" ref="userDao"/>
-        </bean>
-        2
-        <bean id="userService" class="com.kaishengit.service.UserService">
-                <property name="userDao">
-                        <ref bean="userDao"/>
-                </property>
-        </bean>
-        3
-        <bean id="userService" class="com.kaishengit.service.UserService">
-                <property name="userDao">
-                        <bean class="com.kaishengit.dao.UserDaoImpl1"/>
-                </property>
-        </bean>
-        4
-        <bean id="userService" class="com.kaishengit.service.UserService" p:userDao-ref="userDao"/>
--->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
 
-        <!--构造方法注入-->
-        <!--一个参数-->
-        <!--<bean id="userService" class="com.kaishengit.service.UserService">-->
-                <!--<constructor-arg name="userDao" ref="userDao"/>-->
-        <!--</bean>-->
-        <!--两个参数-->
-        <!--<bean id="userService" class="com.kaishengit.service.UserService">
-                <constructor-arg name="userDao" ref="userDao"/>
-                <constructor-arg name="name" value="Tom"/>
-        </bean>-->
-        <!--两个参数方法2-->
-        <!--<bean id="userService" class="com.kaishengit.service.UserService">-->
-                <!--<constructor-arg index="0" ref="userDao"/>-->
-                <!--<constructor-arg index="1" value="tom"/>-->
-        <!--</bean>-->
-        <!--<bean id="userService" class="com.kaishengit.service.UserService">
-                <constructor-arg type="com.kaishengit.dao.UserDaoImpl1" ref="userDao"/>
-                <constructor-arg type="java.lang.String" value="Tom"/>
-        </bean>-->
+    <context:component-scan base-package="com.kaishengit"/>
+    <context:property-placeholder location="classpath:config.properties"/>
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="initialSize" value="${jdbc.initsize}"/>
+        <property name="maxWaitMillis" value="${jdbc.maxwait}"/>
+        <property name="maxTotal" value="${jdbc.maxsize}"/>
+        <property name="maxIdle" value="${jdbc.maxidle}"/>
+        <property name="minIdle" value="${jdbc.minidle}"/>
+    </bean>
 
-       <!-- <bean id="bookService" class="com.kaishengit.service.BookService" p:bookName="Java" p:num="100">
-                <property name="lists">
-                        <list>
-                                <value>list1</value>
-                                <value>list2</value>
-                                <value>list3</value>
-                        </list>
-                </property>
-                <property name="sets">
-                        <set>
-                                <value>set1</value>
-                                <value>set2</value>
-                        </set>
-                </property>
-                <property name="maps">
-                        <props>
-                                <prop key="k1">v1</prop>
-                                <prop key="k2">v2</prop>
-                        </props>
-                </property>
-                <property name="userDao" ref="userDao"/>
-        </bean>
--->
-        
-        <bean id="myAdvice" class="com.kaishengit.aop.MyAdvice"></bean>
-                <aop:config>
-                        <aop:aspect ref="myAdvice">
-                                <aop:pointcut id="myPointCut" expression="execution(* com.kaishengit.dao..*.*(..))"/>
-                                <aop:around method="aroundAdvice" pointcut-ref="myPointCut"/>
-
-                                <!--<aop:before method="beforeAdvice" pointcut-ref="myPointCut"/>
-                                <aop:after-returning method="afterReturningAdvice" pointcut-ref="myPointCut" returning="result"/>
-                                <aop:after-throwing method="exceptionAdvice" pointcut-ref="myPointCut" throwing="e"/>
-                                <aop:after method="finallyAdvice" pointcut-ref="myPointCut"/>-->
-                        </aop:aspect>
-                </aop:config>
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+     </bean>
 
 
 </beans>
