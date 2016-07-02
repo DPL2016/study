@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="userDao" class="com.kaishengit.dao.UserDaoImpl1"/>
+    <bean id="userDao2" class="com.kaishengit.dao.UserDaoImpl2"/>
+    <!--<bean id="userService" class="com.kaishengit.service.UserService">-->
+        <!--<property name="userDao" ref="userDao"/>-->
+    <!--</bean>-->
+    <!--<bean id="userService" class="com.kaishengit.service.UserService">
+        <property name="userDao">
+            <ref bean="userDao"/>
+        </property>
+    </bean>-->
+
+    <!--<bean id="userService" class="com.kaishengit.service.UserService">-->
+        <!--<property name="userDao">-->
+            <!--<bean class="com.kaishengit.dao.UserDaoImpl1"/>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <!--<bean id="userService" class="com.kaishengit.service.UserService" p:userDao-ref="userDao"/>-->
+
+    <!--<bean id="userService" class="com.kaishengit.service.UserService">-->
+        <!--<constructor-arg name="userDao" ref="userDao"/>-->
+    <!--</bean>-->
+
+    <bean id="userService" class="com.kaishengit.service.UserService" autowire="constructor"/>
+    <bean id="bookService" class="com.kaishengit.service.BookService" p:bookName="java" p:num="100">
+        <property name="lists">
+            <list>
+                <value>list1</value>
+                <value>list2</value>
+                <value>list3</value>
+            </list>
+        </property>
+        <property name="sets">
+            <set>
+                <value>set1</value>
+                <value>set2</value>
+            </set>
+        </property>
+        <property name="maps">
+            <map>
+                <entry key="k1" value="v1"/>
+                <entry key="k2" value="v2"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="k1">v1</prop>
+                <prop key="k2">v2</prop>
+            </props>
+        </property>
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+    <bean id="myAdvice" class="com.kaishengit.aop.MyAdvice"/>
+    <aop:config>
+        <aop:aspect ref="myAdvice">
+            <aop:pointcut id="myPointCut" expression="execution(* com.kaishengit.dao..*.*(..))"/>
+            <!--<aop:before method="beforeAdvice" pointcut-ref="myPointCut"/>
+            <aop:after-returning method="afterReturingAdvice" pointcut-ref="myPointCut" returning="result"/>
+            <aop:after-throwing method="exceptionAdvice" pointcut-ref="myPointCut" throwing="e"/>
+            <aop:after method="finallyAdvie" pointcut-ref="myPointCut" />-->
+            <aop:around method="aroundAdvice" pointcut-ref="myPointCut"/>
+        </aop:aspect>
+    </aop:config>
+
+
+</beans>
