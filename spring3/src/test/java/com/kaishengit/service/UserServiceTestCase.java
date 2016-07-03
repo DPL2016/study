@@ -10,6 +10,6 @@ public class UserServiceTestCase {
     public void testSay(){
         ApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         UserService userService = (UserService) context.getBean("userService");
-        userService.say();
+
     }
 }

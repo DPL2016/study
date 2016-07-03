@@ -14,8 +14,5 @@ public class UserService {
         this.userDao = userDao;
     }
 
-    public void say(){
-        userDao.say();
-        System.out.println("你好");
-    }
+
 }
