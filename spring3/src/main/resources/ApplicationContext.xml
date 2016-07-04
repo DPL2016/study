@@ -13,7 +13,7 @@
 
 
     <!--<bean id="userService" class="com.kaishengit.service.UserService">-->
-        <!--<property name="userDao" ref="userDao"/>-->
+    <!--<property name="userDao" ref="userDao"/>-->
     <!--</bean>-->
     <!--<bean id="userService" class="com.kaishengit.service.UserService">
         <property name="userDao">
@@ -22,15 +22,15 @@
     </bean>-->
 
     <!--<bean id="userService" class="com.kaishengit.service.UserService">-->
-        <!--<property name="userDao">-->
-            <!--<bean class="com.kaishengit.dao.UserDaoImpl1"/>-->
-        <!--</property>-->
+    <!--<property name="userDao">-->
+    <!--<bean class="com.kaishengit.dao.UserDaoImpl1"/>-->
+    <!--</property>-->
     <!--</bean>-->
 
     <!--<bean id="userService" class="com.kaishengit.service.UserService" p:userDao-ref="userDao"/>-->
 
     <!--<bean id="userService" class="com.kaishengit.service.UserService">-->
-        <!--<constructor-arg name="userDao" ref="userDao"/>-->
+    <!--<constructor-arg name="userDao" ref="userDao"/>-->
     <!--</bean>-->
 
     <!--<bean id="userService" class="com.kaishengit.service.UserService" autowire="constructor"/>
@@ -74,7 +74,10 @@
             <aop:around method="aroundAdvice" pointcut-ref="myPointCut"/>
         </aop:aspect>
     </aop:config>-->
-    <bean id="userDao" class="com.kaishengit.dao.UserDaoImpl1"/>
+    <bean id="userDao" class="com.kaishengit.dao.UserDaoImpl1">
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+
     <context:property-placeholder location="config.properties"/>
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
         <property name="driverClassName" value="${jdbc.driver}"/>

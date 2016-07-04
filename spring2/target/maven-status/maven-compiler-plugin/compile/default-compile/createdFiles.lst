@@ -1,0 +1,11 @@
+com\kaishengit\service\AdminService.class
+com\kaishengit\pojo\Borrow.class
+com\kaishengit\mapper\UserMapper.class
+com\kaishengit\mapper\AdminMapper.class
+com\kaishengit\pojo\Admin.class
+com\kaishengit\aop\MyAdvice.class
+com\kaishengit\web\Home.class
+com\kaishengit\pojo\LoginLog.class
+com\kaishengit\pojo\User.class
+com\kaishengit\pojo\Card.class
+com\kaishengit\pojo\Book.class

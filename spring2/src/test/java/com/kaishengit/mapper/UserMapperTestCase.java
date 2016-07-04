@@ -1,4 +1,4 @@
-package com.kaishengit;
+package com.kaishengit.mapper;
 
 import com.kaishengit.mapper.UserMapper;
 import com.kaishengit.pojo.User;

@@ -27,6 +27,21 @@
       <version>1.7.5</version>
     </dependency>
 
+    <!--Servlet API-->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!--JSTL-->
+    <dependency>
+      <groupId>jstl</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
     <!--Spring-->
     <dependency>
       <groupId>org.springframework</groupId>
@@ -99,6 +114,16 @@
           <source>1.7</source>
           <target>1.7</target>
           <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+          <port>80</port>
+          <path>/</path>
         </configuration>
       </plugin>
     </plugins>
