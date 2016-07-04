@@ -5,6 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-<h3>show</h3>
+<h3>show,JSESSIONID:${JSESSIONID}</h3>
 </body>
 </html>
