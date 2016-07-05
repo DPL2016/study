@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [05/Jul/2016:16:46:09 +0800] "GET /books HTTP/1.1" 200 9412 http-bio-80-exec-1 3118
+0:0:0:0:0:0:0:1 - - [05/Jul/2016:16:46:09 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-80-exec-4 37
+0:0:0:0:0:0:0:1 - - [05/Jul/2016:16:46:15 +0800] "GET /books/new HTTP/1.1" 200 3233 http-bio-80-exec-5 460
+0:0:0:0:0:0:0:1 - - [05/Jul/2016:16:48:01 +0800] "GET /books/new HTTP/1.1" 200 3313 http-bio-80-exec-7 659
+0:0:0:0:0:0:0:1 - - [05/Jul/2016:16:48:01 +0800] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 - http-bio-80-exec-10 6
+0:0:0:0:0:0:0:1 - - [05/Jul/2016:16:48:17 +0800] "POST /books/new HTTP/1.1" 302 - http-bio-80-exec-10 172
+0:0:0:0:0:0:0:1 - - [05/Jul/2016:16:48:17 +0800] "GET /books HTTP/1.1" 200 9754 http-bio-80-exec-10 38
