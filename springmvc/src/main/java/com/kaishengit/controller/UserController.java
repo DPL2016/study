@@ -8,6 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.ServletContext;
@@ -87,7 +88,14 @@ public class UserController {
         return "/users/native";
     }
 
-   
+    @RequestMapping(value = "/avatar/update",method = RequestMethod.GET)
+    public String updateAvatar(){
+        return  "users/upload";
+    }
+    /*@RequestMapping(value = "/avatar/update",method = RequestMethod.POST)
+    public String updateAvatar(String photoName, MultipartFile file){
+
+    }*/
 
 
 
