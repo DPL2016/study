@@ -40,7 +40,7 @@
     </select>
     <select id="countByParam" resultType="long">
         SELECT count(*) FROM t_book
-        <where>
+        <!--<where>
             <if test="bookname != null and bookname !=''">
                 bookname LIKE concat('%',#{bookname},'%')
             </if>
@@ -50,7 +50,21 @@
             <if test="pub!=null and pub !=''">
                 and pubid=#{pub}
             </if>
-        </where>
+        </where>-->
+        <trim prefix="where" prefixOverrides="and|or">
+            <if test="bookname != null and bookname !=''">
+                bookname LIKE concat('%',#{bookname},'%')
+            </if>
+            <choose>
+                <when test="type!=null and type !=''">
+                    and typeid = #{type}
+                </when>
+                <when test="pub!=null and pub !=''">
+                    and pubid=#{pub}
+                </when>
+            </choose>
+
+        </trim>
     </select>
     <select id="findByParam" resultType="Book">
         SELECT t_book.*,
@@ -59,17 +73,20 @@
         FROM t_book
         INNER join t_booktype ON t_book.typeid = t_booktype.id
         INNER JOIN t_publisher on t_book.pubid = t_publisher.id
-        <where>
+        <trim prefix="where" prefixOverrides="and|or">
             <if test="bookname != null and bookname !=''">
                 bookname LIKE concat('%',#{bookname},'%')
             </if>
-            <if test="type!=null and type !=''">
-                and typeid = #{type}
-            </if>
-            <if test="pub!=null and pub !=''">
-                and pubid=#{pub}
-            </if>
-        </where>
+            <choose>
+                <when test="type!=null and type !=''">
+                    and typeid = #{type}
+                </when>
+                <when test="pub!=null and pub !=''">
+                    and pubid=#{pub}
+                </when>
+            </choose>
+
+        </trim>
         ORDER by t_book.id DESC limit ${start},${size}
     </select>
 </mapper>
