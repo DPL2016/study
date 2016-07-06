@@ -4,6 +4,7 @@ import com.kaishengit.pojo.Book;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 public interface BookMapper {
     void save(Book book);
@@ -15,4 +16,8 @@ public interface BookMapper {
     Long count();
 
     List<Book> findByPage(@Param("start") Integer start, @Param("size") int i);
+
+    Long countByParam(Map<String, Object> params);
+
+    List<Book> findByParam(Map<String, Object> params);
 }

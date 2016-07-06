@@ -1,11 +1,13 @@
 package com.kaishengit.cotroller;
 
+import com.google.common.collect.Maps;
 import com.kaishengit.exception.NotFoundException;
 import com.kaishengit.pojo.Book;
 import com.kaishengit.pojo.BookType;
 import com.kaishengit.pojo.Publisher;
 import com.kaishengit.service.BookService;
 import com.kaishengit.util.Page;
+import com.kaishengit.util.Strings;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,6 +19,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.inject.Inject;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/books")
@@ -25,9 +28,23 @@ public class BookController {
     private BookService bookService;
 
     @RequestMapping(method = RequestMethod.GET)
-    public String list(@RequestParam(required = false,defaultValue = "1") Integer p,Model model){
-        Page<Book> page = bookService.findAllBookPage(p);
+    public String list(@RequestParam(required = false,defaultValue = "1") Integer p,Model model,
+                       @RequestParam(required = false)String bookname,
+                       @RequestParam(required = false) Integer type,
+                       @RequestParam(required = false) Integer pub){
+        bookname = Strings.toUTF8(bookname);
+        Map<String,Object> params = Maps.newHashMap();
+        params.put("bookname",bookname);
+        params.put("type",type);
+        params.put("pub",pub);
+        Page<Book> page = bookService.findBookPage(p,params);
+        model.addAttribute("types",bookService.findAllBookType());
+        model.addAttribute("pubs",bookService.findAllPublisher());
         model.addAttribute("page",page);
+
+        model.addAttribute("bookname",bookname);
+        model.addAttribute("typeid",type);
+        model.addAttribute("pubid",pub);
         return "/books/list";
     }
 
@@ -71,4 +88,5 @@ public class BookController {
         redirectAttributes.addFlashAttribute("message","操作成功");
         return "redirect:/books";
     }
+
 }

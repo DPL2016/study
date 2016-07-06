@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.inject.Inject;
 import javax.inject.Named;
 import java.util.List;
+import java.util.Map;
 
 @Named
 @Transactional
@@ -47,10 +48,12 @@ public class BookService {
         return bookMapper.findById(id);
     }
 
-    public Page<Book> findAllBookPage(Integer p) {
-        int totalSize = bookMapper.count().intValue();
+    public Page<Book> findBookPage(Integer p, Map<String, Object> params) {
+        int totalSize = bookMapper.countByParam(params).intValue();
         Page<Book> page = new Page<>(p,5,totalSize);
-        List<Book> bookList = bookMapper.findByPage(page.getStart(),5);
+        params.put("start",page.getStart());
+        params.put("size",5);
+        List<Book> bookList = bookMapper.findByParam(params);
         page.setItems(bookList);
         return page;
     }
