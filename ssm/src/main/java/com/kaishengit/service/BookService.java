@@ -7,6 +7,7 @@ import com.kaishengit.pojo.Book;
 import com.kaishengit.pojo.BookType;
 import com.kaishengit.pojo.Publisher;
 import com.kaishengit.util.Page;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.inject.Inject;
@@ -56,5 +57,17 @@ public class BookService {
         List<Book> bookList = bookMapper.findByParam(params);
         page.setItems(bookList);
         return page;
+    }
+
+    public List<Book> findByDataTables(Map<String, Object> param) {
+        return  bookMapper.findByDataTable(param);
+    }
+
+    public Long count() {
+        return bookMapper.count();
+    }
+
+    public Long countByKeyWord(String keyword) {
+        return bookMapper.countByKeyWord(keyword);
     }
 }

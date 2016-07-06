@@ -5,6 +5,7 @@ com\kaishengit\pojo\Publisher.class
 com\kaishengit\util\Page.class
 com\kaishengit\pojo\BookType.class
 com\kaishengit\service\BookService.class
+com\kaishengit\cotroller\DataTablesCotroller.class
 com\kaishengit\exception\NotFoundException.class
 com\kaishengit\mapper\PublisherMapper.class
 com\kaishengit\util\Strings.class

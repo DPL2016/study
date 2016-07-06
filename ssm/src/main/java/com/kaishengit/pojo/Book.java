@@ -15,6 +15,19 @@ public class Book implements Serializable {
     private BookType bookType;
     private Publisher publisher;
 
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", bookname='" + bookname + '\'' +
+                ", bookauthor='" + bookauthor + '\'' +
+                ", bookprice=" + bookprice +
+                ", booknum=" + booknum +
+                ", typeid=" + typeid +
+                ", pubid=" + pubid +
+                '}';
+    }
+
     public Integer getId() {
         return id;
     }

@@ -1,6 +1,7 @@
 E:\webtest\idea\ssm\src\main\java\com\kaishengit\service\BookService.java
 E:\webtest\idea\ssm\src\main\java\com\kaishengit\mapper\BookTypeMapper.java
 E:\webtest\idea\ssm\src\main\java\com\kaishengit\cotroller\BookController.java
+E:\webtest\idea\ssm\src\main\java\com\kaishengit\cotroller\DataTablesCotroller.java
 E:\webtest\idea\ssm\src\main\java\com\kaishengit\exception\NotFoundException.java
 E:\webtest\idea\ssm\src\main\java\com\kaishengit\mapper\BookMapper.java
 E:\webtest\idea\ssm\src\main\java\com\kaishengit\pojo\Publisher.java
