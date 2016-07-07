@@ -10,6 +10,34 @@
 <body>
 <div class="container">
 
+    <div class="page-header">
+        <h3>DataTables</h3>
+    </div>
+    <div class="well well-sm">
+        <form method="get" class="form-inline">
+            <div class="form-group">
+                <input type="text" placeholder="书籍名称" name="bookname" id="search_bookName" value="${bookname}" class="form-control">
+            </div>
+            <div class="form-group">
+                <select name="type" class="form-control" id="search_type">
+                    <option value="">请选择类型</option>
+                    <c:forEach items="${types}" var="type">
+                        <option value="${type.id}" ${typeid == type.id ? 'selected' : '' }>${type.booktype}</option>
+                    </c:forEach>
+                </select>
+            </div>
+            <div class="form-group">
+                <select name="pub" class="form-control" id="search_pub">
+                    <option value="">请选择出版社</option>
+                    <c:forEach items="${pubs}" var="pub">
+                        <option value="${pub.id}" ${pubid == pub.id ? 'selected' : ''} >${pub.pubname}</option>
+                    </c:forEach>
+                </select>
+            </div>
+            <button type="button" id="searchBtn" class="btn btn-default">搜索</button>
+        </form>
+    </div>
+
     <a href="javascript:;" id="newBookBtn" class="btn btn-primary"  style="margin-bottom:20px;">添加新书籍</a>
 
     <!-- Modal -->
@@ -157,7 +185,12 @@
             "serverSide":true,
             "ajax":{
                 url:"/datatables/data.json",
+                data:function(dataSouce){
+                    dataSouce.bookname=$("#search_bookName").val();
+                    dataSouce.typeid = $("#search_type").val();
+                    dataSouce.pubid = $("#search_pub").val();
 
+                }
             },
             "order":[0,'desc'],
             "searching": false,
@@ -341,7 +374,12 @@
             }
         });
 
+        $("#searchBtn").click(function(){
+            dataTable.ajax.reload();
+        });
+
     });
+
 </script>
 
 </body>
