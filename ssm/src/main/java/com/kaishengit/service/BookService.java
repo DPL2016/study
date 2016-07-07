@@ -70,4 +70,8 @@ public class BookService {
     public Long countByKeyWord(String keyword) {
         return bookMapper.countByKeyWord(keyword);
     }
+
+    public Long countByParam(Map<String, Object> param) {
+        return bookMapper.countByParam(param);
+    }
 }
