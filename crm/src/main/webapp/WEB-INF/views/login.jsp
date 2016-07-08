@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
@@ -33,6 +34,11 @@
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body" style="background-color: transparent">
+        <c:if test="${not empty message}">
+            <div class="alert alert-danger">
+                ${message}
+            </div>
+        </c:if>
         <form action="/" method="post" >
             <div id="username" class="form-group has-feedback ipt" style="border: #00ab1b 2px solid;">
                 <input type="text" class="form-control" name="username" placeholder="账号">
