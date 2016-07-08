@@ -52,11 +52,8 @@ public class ShiroRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
-        logger.debug("token:{}",token);
         String username = token.getUsername();
-        logger.debug("UserName:{}",username);
         User user = userMapper.findByUsername(username);
-        logger.debug("User:{}",user);
         if (user != null) {
             if (!user.getEnable()) {
                 throw new LockedAccountException("账号已被禁用");
