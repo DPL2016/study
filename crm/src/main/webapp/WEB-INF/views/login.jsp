@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>KaiShengit CRM Log in</title>
+    <title>DwT CRM Log in</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -25,21 +25,21 @@
 </head>
 <body class="hold-transition login-page" style="background-image:url(/static/dist/img/reactivex_bg.jpg)">
 <div class="navbar" style="margin-left: 50px">
-    <a class="navbar-brand" href="/" style="color:white"><img src="/static/dist/img/Rx_Icon.png" style="height:90%;" alt="" /> KaiShengit CRM</a>
+    <a class="navbar-brand" href="/" style="color:white"><img src="/static/dist/img/Rx_Icon.png" style="height:90%;" alt="" /> DwT CRM</a>
 </div>
 <div class="login-box">
     <div class="login-logo">
-        <a href="../../index2.html" style="color: #ffffff"><b>KaiShengit</b>CRM</a>
+        <a href="../../index2.html" style="color: #ffffff"><b>DwT </b>CRM</a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body" style="background-color: transparent">
-        <form action="/home" method="post" >
+        <form action="/" method="post" >
             <div id="username" class="form-group has-feedback ipt" style="border: #00ab1b 2px solid;">
-                <input type="text" class="form-control" placeholder="账号">
+                <input type="text" class="form-control" name="username" placeholder="账号">
                 <span class="glyphicon glyphicon-user form-control-feedback"></span>
             </div>
             <div id="password" class="form-group has-feedback ipt" style="border: #00ab1b 2px solid;">
-                <input type="password" class="form-control" placeholder="密码">
+                <input type="password" class="form-control" name="password" placeholder="密码">
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
             </div>
             <div class="row">
