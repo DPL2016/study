@@ -12,16 +12,14 @@
     <!-- Bootstrap 3.3.6 -->
     <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/plugins/fontawesome/css/font-awesome.min.css">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/static/plugins/ionicons-2.0.1/css/ionicons.min.css">
+
     <!-- Theme style -->
     <link rel="stylesheet" href="/static/dist/css/AdminLTE.min.css">
 
     <link rel="stylesheet" href="/static/dist/css/skins/skin-blue.min.css">
-
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 
@@ -32,7 +30,7 @@
     <%@include file="include/header.jsp"%>
     <%@include file="include/leftside.jsp"%>
     <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
+    <div class="content-wrapper" style="background-image: url(/static/dist/img/asanoha-400px.png)">
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>

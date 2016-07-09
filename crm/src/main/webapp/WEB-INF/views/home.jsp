@@ -1,4 +1,4 @@
-
+<%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 
@@ -12,9 +12,9 @@
     <!-- Bootstrap 3.3.6 -->
     <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/plugins/fontawesome/css/font-awesome.min.css">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/static/plugins/ionicons-2.0.1/css/ionicons.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="/static/dist/css/AdminLTE.min.css">
 
@@ -36,10 +36,7 @@
                 首页
                 <small style="color: #00ab1b">客户关系管理系统</small>
             </h1>
-            <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i>主页</a></li>
-                <li class="active">首页</li>
-            </ol>
+
         </section>
 
         <!-- Main content -->

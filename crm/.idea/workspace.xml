@@ -2,38 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ea4730f-325e-405f-8e14-7de91de0cddb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/dto/FlashMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/util/ServletUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/util/ShiroUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/service/ShiroRealm.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/service/ShiroRealm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/dto/DataTablesResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/plugins/ionicons-2.0.1/css/ionicons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/plugins/ionicons-2.0.1/css/ionicons.min.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-07-08" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/mapper/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.class" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm2" afterPath="$PROJECT_DIR$/../ssm2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ssm_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/HomeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserLogMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserLogMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/service/ShiroRealm.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/service/ShiroRealm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserLogMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserLogMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/header.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting/loglist.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting/loglist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting/password.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting/password.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssm.iml" afterPath="$PROJECT_DIR$/ssm.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config.properties" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/RoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/dist/css/skins/skin-blue.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/dist/css/skins/skin-blue.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-07-08" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-07-08" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" />
     </list>
     <ignored path="ssm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,6 +59,10 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - kaisheng_crm@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -70,25 +71,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/HomeController.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.093696766">
-              <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2402#2403#0" expanded="true" />
-                <element signature="e#2431#2432#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#2085#2086#0" expanded="true" />
+                <element signature="e#2125#2126#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/service/UserService.java">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting/password.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.4444447">
+              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skin-blue.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/dist/css/skins/skin-blue.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="781" selection-start-line="0" selection-start-column="781" selection-end-line="0" selection-end-column="781" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loglist.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting/loglist.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.151515">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.939394">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="25.454546">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -102,13 +157,13 @@
         <option value="web.xml" />
         <option value="applicationContext" />
         <option value="jsf" />
-        <option value="Jsp File" />
         <option value="spring-beans.schema" />
         <option value="mybatis-config" />
         <option value="mybatis" />
         <option value="MyBatisMapper" />
         <option value="Interface" />
         <option value="Mybatis Mapper" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -124,12 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/Publisher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/BookType.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/283a5022-9cf3-4806-a226-15aac4e13283/console.sql" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kaishengit/service/BookServiceTestCase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/BookTypeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/BookTypeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/PublisherMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/PublisherMapper.xml" />
@@ -152,29 +201,35 @@
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationContext-shiro.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/RoleMapper.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/125cfccf-2a83-4303-b82e-f82e21133e78/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/leftside.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/service/ShiroRealm.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.min.css" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/dto/FlashMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/util/ServletUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/util/ShiroUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/dto/DataTablesResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserLogMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserLogMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting/loglist.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting/password.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/dist/css/skins/skin-blue.min.css" />
       </list>
     </option>
   </component>
@@ -197,9 +252,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="171" />
-    <option name="width" value="1364" />
-    <option name="height" value="749" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -226,6 +282,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,6 +402,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="setting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -367,6 +459,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -441,10 +601,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kaishengit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -563,32 +719,6 @@
               <option name="myItemId" value="kaishengit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kaishengit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -626,8 +756,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -649,11 +777,11 @@
       <recent name="E:\webtest\idea\ssm\src\main\webapp\WEB-INF\views\books" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\webtest\idea\crm\src\main\webapp\static\plugins" />
+      <recent name="E:\webtest\idea\crm\src\main\webapp\WEB-INF\views\setting" />
       <recent name="E:\webtest\idea\crm\src\main\webapp\static\dist\img" />
       <recent name="E:\webtest\idea\crm\src\main\webapp\static\dist\img\credit" />
       <recent name="E:\webtest\idea\crm\src\main\webapp\static" />
-      <recent name="E:\webtest\idea\crm\src\main\webapp\WEB-INF\views" />
-      <recent name="E:\webtest\idea\crm\src\main\webapp\static\plugins" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.tomcat ">
@@ -1283,7 +1411,8 @@
       <workItem from="1467857309597" duration="14590000" />
       <workItem from="1467883728734" duration="12752000" />
       <workItem from="1467937755447" duration="9914000" />
-      <workItem from="1467960403702" duration="7560000" />
+      <workItem from="1467960403702" duration="10741000" />
+      <workItem from="1468029749469" duration="12884000" />
     </task>
     <servers />
   </component>
@@ -1311,7 +1440,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87508000" />
+    <option name="totallyTimeSpent" value="103573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1323,12 +1452,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="0" width="1364" height="749" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.4969651" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5030349" order="8" side_tool="true" content_ui="tabs" />
@@ -1338,21 +1466,22 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17254601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22768533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27070552" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27010623" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40487805" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39765102" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.4969651" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1377,52 +1506,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/leftside.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/283a5022-9cf3-4806-a226-15aac4e13283/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -1470,14 +1553,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="20.363636">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/dist/img/reactivex_bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1487,16 +1562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1443299">
           <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="e#255#256#0" expanded="false" />
-            <element signature="e#280#281#0" expanded="false" />
-            <element signature="e#317#318#0" expanded="false" />
-            <element signature="e#345#346#0" expanded="false" />
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#411#412#0" expanded="false" />
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#499#500#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1545,14 +1610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/125cfccf-2a83-4303-b82e-f82e21133e78/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1572,7 +1629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1580,31 +1636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08777429">
           <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.013986">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.093959734">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1612,102 +1643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2688822">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1467505282000" expanded="true" signature="831:885" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="1168:1209" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="1267:1545" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="1320:1437" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="1603:1839" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="1656:1779" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="1899:2167" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="1952:2082" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="2248:2508" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="2301:2437" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="2576:2876" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="2629:2783" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="2949:3230" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="3002:3138" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="3501:3552" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="3589:4043" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="3623:3696" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="3740:3792" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="3840:3914" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="3936:4010" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="4308:4359" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="4396:4907" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="4424:4459" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="4491:4564" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="4586:4659" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="4707:4778" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="4800:4874" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="5176:5227" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="5264:5718" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="5298:5350" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="5415:5467" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="5515:5589" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="5611:5685" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="5987:6038" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="6075:6527" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="6109:6161" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="6224:6276" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="6324:6398" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="6420:6494" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="6790:6841" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="6878:7326" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="6912:6964" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="7023:7075" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="7123:7197" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="7219:7293" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="7591:7642" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="7679:8133" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="7713:7765" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="7830:7882" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="7930:8004" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="8026:8100" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="8437:8488" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="8525:8979" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="8559:8632" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="8676:8728" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="8776:8850" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="8872:8946" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="9035:9050" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="9292:9343" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="9380:9894" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="9408:9443" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="9475:9548" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="9570:9643" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="9691:9765" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="9787:9861" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="9950:9965" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="10211:10262" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="10299:10753" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="10333:10385" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="10450:10502" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="10550:10624" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="10646:10720" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="10809:10824" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="11070:11121" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="11158:11610" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="11192:11244" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="11307:11359" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="11407:11481" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="11503:11577" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="11666:11681" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="11921:11972" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="12009:12457" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="12043:12095" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="12154:12206" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="12254:12328" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="12350:12424" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="12513:12528" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="12770:12821" placeholder="..." />
-            <marker date="1467505282000" expanded="true" signature="12858:13312" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="12892:12944" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="13009:13061" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="13109:13183" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="13205:13279" placeholder="..." />
-            <marker date="1467505282000" expanded="false" signature="13368:13384" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1760,14 +1695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/leftside.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2151898">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43399638">
@@ -1788,23 +1715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39240506">
-          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5757575">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1821,13 +1731,13 @@
         <state vertical-scroll-proportion="0.668942">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#167#168#0" expanded="false" />
+            <element signature="e#238#239#0" expanded="false" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#332#333#0" expanded="false" />
+            <element signature="e#379#380#0" expanded="false" />
+            <element signature="e#432#433#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1836,15 +1746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserLogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49851632">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1858,43 +1759,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserLogMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27631578">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state vertical-scroll-proportion="-0.8484849">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
           <folding>
-            <marker date="1467972039338" expanded="true" signature="250:343" placeholder="INSERT INTO t_user_log... " />
+            <marker date="1467982631967" expanded="true" signature="302:351" placeholder="SELECT * FRO... t_user" />
+            <marker date="1467982631967" expanded="true" signature="404:512" placeholder="UPDATE t_use... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55263156">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.2443281">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/plugins/validate/jquery.validate.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/security/MessageDigest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="409" column="0" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/plugins/ionicons-2.0.1/css/ionicons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/leftside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.272727">
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7340824">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/dto/DataTablesResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3580247">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2962963">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
           <folding>
-            <marker date="1467972039329" expanded="true" signature="302:351" placeholder="SELECT * FRO... t_user" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#2085#2086#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/aa827d16/db46e39e-43cd-48c1-9373-a7441f900321/kaisheng_crm.t_user_log">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.69135803">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.093696766">
-          <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2402#2403#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserLogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2659176">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <marker date="1468041391557" expanded="true" signature="250:343" placeholder="INSERT INTO t_user_log... " />
+            <marker date="1468041391557" expanded="true" signature="437:460" placeholder="SELECT *FROM... t_user_log" />
+            <marker date="1468041391557" expanded="true" signature="437:626" placeholder="SELECT *FROM... t_user_log" />
+            <marker date="1468041391557" expanded="true" signature="819:850" placeholder="SELECT COUNT... t_user_log" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="4647" column="98" selection-start-line="4647" selection-start-column="98" selection-end-line="4647" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="6" column="82898" selection-start-line="6" selection-start-column="82898" selection-end-line="6" selection-end-column="82898" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.939394">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.454546">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting/loglist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.151515">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting/password.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4444447">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/dist/css/skins/skin-blue.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="781" selection-start-line="0" selection-start-column="781" selection-end-line="0" selection-end-column="781" />
+          <folding />
         </state>
       </provider>
     </entry>

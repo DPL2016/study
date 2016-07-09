@@ -5,4 +5,25 @@
     <insert id="save">
         INSERT INTO t_user_log(logintime, loginip, userid) VALUES (#{logintime},#{loginip},#{userid})
     </insert>
+    <select id="findByParam" parameterType="map" resultType="UserLog">
+        SELECT *FROM t_user_log
+        <where>
+            <if test="userId !=null and userId !='' ">
+                userid = #{userId}
+            </if>
+        </where>
+        order by id desc
+        <if test="start !=null and start !='' ">
+            limit ${start},${length}
+        </if>
+    </select>
+
+    <select id="countByParam" resultType="long" parameterType="map">
+        SELECT COUNT(*) FROM t_user_log
+        <where>
+            <if test="userId !=null and userId != ''">
+                userId = #{userId}
+            </if>
+        </where>
+    </select>
 </mapper>
