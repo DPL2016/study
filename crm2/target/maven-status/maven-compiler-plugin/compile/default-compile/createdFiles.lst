@@ -12,5 +12,6 @@ com\kaishengit\mapper\UserMapper.class
 com\kaishengit\exception\NotFoundException.class
 com\kaishengit\controller\HomeController.class
 com\kaishengit\mapper\UserLogMapper.class
+com\kaishengit\controller\UserController.class
 com\kaishengit\pojo\User.class
 com\kaishengit\util\Strings.class

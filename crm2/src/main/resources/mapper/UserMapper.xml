@@ -6,5 +6,30 @@
 <select id="findByUsername" parameterType="string" resultType="User">
     SELECT * FROM t_user WHERE username = #{username}
 </select>
+<update id="updateUser">
+    UPDATE t_user SET password =#{password},realname = #{realname},weixin = #{weixin},enable=#{enable}
+    where id=#{id}
+</update>
 
+
+    <select id="findByParam" resultType="UserLog">
+        SELECT * FROM t_user_log
+         <where>
+             <if test="userId!=null and userId!=''">
+                 userId=#{userId}
+             </if>
+         </where>
+        order by id desc
+        <if test="start!=null and userId!=''">
+            limit ${start},${length}
+        </if>
+    </select>
+    <select id="countByParam" resultType="long">
+        SELECT COUNT(*) FROM  t_user_log
+        <where>
+            <if test="userid !=null and userId!=''">
+                userid=#{userid}
+            </if>
+        </where>
+    </select>
 </mapper>
