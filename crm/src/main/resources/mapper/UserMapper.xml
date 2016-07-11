@@ -32,4 +32,12 @@
             </if>
         </where>
     </select>
+    <insert id="save">
+        INSERT  INTO t_user(username, password, realname, weixin, roleid, enable)
+        VALUES (#{username},#{password},#{realname},#{weixin},#{roleid},#{enable})
+    </insert>
+
+    <select id="findUserByUserName" resultType="User">
+        SELECT * FROM t_user WHERE username = #{username}
+    </select>
 </mapper>

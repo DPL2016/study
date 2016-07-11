@@ -15,4 +15,8 @@ public interface UserMapper {
     Long countUser();
 
     Long countByParam();
+
+    void save(User user);
+
+    User findUserByUserName(String username);
 }

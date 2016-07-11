@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 
@@ -33,33 +34,81 @@
             <div class="row">
                 <div class="col-xs-12">
 
-            <div class="box box-primary">
-                <div class="box-header with-border">
-                    <ol class="breadcrumb">
-                        <li><a href="/home"><i class="fa fa-dashboard"></i>首页</a></li>
-                        <li class="active">员工列表</li>
-                    </ol>
-                    <h3 class="box-title">员工列表</h3>
+                    <div class="box box-primary">
+                        <ol class="breadcrumb">
+                            <li><a href="/home"><i class="fa fa-dashboard"></i>首页</a></li>
+                            <li class="active">员工列表</li>
+                        </ol>
+                        <div class="box-header with-border">
 
-                </div>
-                <div class="box-body">
-                    <table class="table" id="userTable">
-                        <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>账号</th>
-                            <th>真实姓名</th>
-                            <th>微信</th>
-                            <th>角色</th>
-                            <th>状态</th>
-                            <th>创建时间</th>
-                            <th>操作</th>
-                        </tr>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
-                </div>
-            </div>
+                            <h3 class="box-title">员工列表</h3>
+                            <div class="box-tools pull-right" style="margin-bottom:15px ">
+                                <a href="javascript:;" id="newBtn" class="btn btn-md btn-success"><i
+                                        class="fa fa-plus"></i> 新增</a>
+                            </div>
+                        </div>
+
+                        <div class="box-body">
+
+                            <table class="table" id="userTable">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>账号</th>
+                                    <th>真实姓名</th>
+                                    <th>微信</th>
+                                    <th>角色</th>
+                                    <th>状态</th>
+                                    <th>创建时间</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="newModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form id="newForm">
+                                        <div class="form-group">
+                                            <label>账号</label>
+                                            <input type="text" class="form-control" name="username">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>员工姓名</label>
+                                            <input type="text" class="form-control" name="realname">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>密码</label>
+                                            <input type="text" class="form-control" name="password" value="000000">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>微信号</label>
+                                            <input type="text" class="form-control" name="weixin">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>角色</label>
+                                            <select class="form-control" name="roleid">
+                                                <c:forEach items="${rolelist}" var="role">
+                                                    <option value="${role.id}">${role.rolename}</option>
+                                                </c:forEach>
+                                            </select>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                    <button type="button" id="saveBtn" class="btn btn-primary">保存</button>
+                                </div>
+                            </div>
+                        </div><!-- /.modal-dialog -->
+                    </div><!-- /.modal -->
                 </div>
             </div>
         </section>
@@ -74,6 +123,7 @@
 <script src="/static/plugins/datatables/js/jquery.dataTables.min.js"></script>
 <script src="/static/plugins/datatables/js/dataTables.bootstrap.min.js"></script>
 <script src="/static/plugins/moment/moment.min.js"></script>
+<script src="/static/plugins/validate/jquery.validate.min.js"></script>
 <script>
     $(function () {
         var dataTable = $("#userTable").DataTable({
@@ -87,21 +137,27 @@
                 {"data": "realname"},
                 {"data": "weixin"},
                 {"data": "role.rolename"},
-                {"data": function(row){
-                    if (row.enable){
-                        return "<span class='label label-success'>正常</span>";
-                    }else {
-                        return "<span class='label label-success'>禁用</span>";
+                {
+                    "data": function (row) {
+                        if (row.enable) {
+                            return "<span class='label label-success'>正常</span>";
+                        } else {
+                            return "<span class='label label-success'>禁用</span>";
+                        }
                     }
-                }},
-                {"data": function(row){
-                    var time = row.createtime;
-                    var day = moment(time);
-                    return day.format("YYYY-MM-DD HH:mm");
-                }},
-                {"data": function(){
-                    return "";
-                }}
+                },
+                {
+                    "data": function (row) {
+                        var time = row.createtime;
+                        var day = moment(time);
+                        return day.format("YYYY-MM-DD HH:mm");
+                    }
+                },
+                {
+                    "data": function () {
+                        return "";
+                    }
+                }
             ],
             "language": {
                 "search": "请输入员工姓名或登录账号:",
@@ -118,6 +174,67 @@
                     "previous": "上一页"
                 }
             }
+        });
+        $("#newForm").validate({
+            errorClass:"text-danger",
+            errorElement:"span",
+            rules:{
+                username:{
+                    required:true,
+                    rangelength:[3,20],
+                    remote:"/admin/user/checkusername"
+                },
+                realname:{
+                    required:true,
+                    rangelength:[2,20]
+                },
+                password:{
+                    required:true,
+                    rangelength:[6,18]
+                },
+                weixin:{
+                    required:true
+                }
+            },
+            messages:{
+                username:{
+                    required:"请输入用户名",
+                    rangelength:"用户名的长度3~20位",
+                    remote:"该用户名已被占用"
+                },
+                realname:{
+                    required:"请输入真实姓名",
+                    rangelength:"真实姓名长度2~20位"
+                },
+                password:{
+                    required:"请输入密码",
+                    rangelength:"密码长度6~18位"
+                },
+                weixin:{
+                    required:"请输入微信号码"
+                }
+            },
+            submitHandler:function(form){
+                $.post("/admin/users/new",$(form).serialize()).done(function(data){
+                    if (data=="success"){
+                        $("#newModal").modal('hide');
+                        dataTable.ajax.reload();
+                    }
+                }).fail(function(){
+                    alert("服务器异常")
+                });
+            }
+        });
+        $("#newBtn").click(function(){
+            $("#newForm")[0].reset();
+            $("#newModal").modal({
+                show:true,
+                backdrop:'static',
+                keyboard:false
+            });
+        });
+        $("#saveBtn").click(function(){
+            $("#newForm").submit();
         });
     });
 </script>

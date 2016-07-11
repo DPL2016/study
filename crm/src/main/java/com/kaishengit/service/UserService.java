@@ -73,4 +73,19 @@ public class UserService {
     public Long countByParam() {
         return userMapper.countByParam();
     }
+
+
+    public List<Role> findAllRole() {
+        return roleMapper.findAllRole();
+    }
+
+    public void saveUser(User user) {
+        user.setEnable(true);
+        user.setPassword(DigestUtils.md5Hex(user.getPassword()));
+        userMapper.save(user);
+    }
+
+    public User findUserByUserName(String username) {
+        return userMapper.findUserByUserName(username);
+    }
 }
