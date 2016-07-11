@@ -51,4 +51,16 @@ public class UserService {
         param.put("userId",ShiroUtil.getCurrentUserId());
         return userMapper.countByParam(param);
     }
+
+    public List<User> findCurrentUser(String start, String length) {
+        Map<String,Object> param = Maps.newHashMap();
+        param.put("length",length);
+        param.put("start",start);
+        return userMapper.findUserByParam(param);
+    }
+
+    public Long findCurrentUserCount() {
+        Map<String,Object> param = Maps.newHashMap();
+        return userMapper.countUserByParam(param);
+    }
 }

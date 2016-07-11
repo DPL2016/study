@@ -16,4 +16,8 @@ public interface UserMapper {
     List<UserLog> findByParam(Map<String, Object> param);
 
     Long countByParam(Map<String, Object> param);
+
+    Long countUserByParam(Map<String, Object> param);
+
+    List<User> findUserByParam(Map<String, Object> param);
 }

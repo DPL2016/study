@@ -62,4 +62,19 @@ public class UserController {
         Long count = userService.findCurrentUserLogCount();
         return new DataTablesResult<>(draw,userLogList,count,count);
     }
+
+    @RequestMapping(value = "/userlist",method = RequestMethod.GET)
+    public String userlist(){
+        return "user/userlist";
+    }
+    @RequestMapping(value = "/users/load",method = RequestMethod.GET)
+    @ResponseBody
+    public DataTablesResult userLoad(HttpServletRequest request){
+        String draw = request.getParameter("draw");
+        String start = request.getParameter("start");
+        String length = request.getParameter("length");
+        List<User> userList = userService.findCurrentUser(start,length);
+        Long count = userService.findCurrentUserCount();
+        return new DataTablesResult<>(draw,userList,count,count);
+    }
 }

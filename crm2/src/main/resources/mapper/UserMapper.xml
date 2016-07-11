@@ -20,10 +20,20 @@
              </if>
          </where>
         order by id desc
-        <if test="start!=null and userId!=''">
+        <if test="start!=null and start!=''">
             limit ${start},${length}
         </if>
     </select>
+
+    <select id="findUserByParam" resultType="User">
+        SELECT t_user.*,t_role.rolename AS 'role.rolename' FROM t_user
+        INNER JOIN t_role ON t_user.roleid = t_role.id
+        order by id desc
+        <if test="start!=null and start!=''">
+            limit ${start},${length}
+        </if>
+    </select>
+
     <select id="countByParam" resultType="long">
         SELECT COUNT(*) FROM  t_user_log
         <where>
@@ -31,5 +41,9 @@
                 userid=#{userid}
             </if>
         </where>
+    </select>
+
+    <select id="countUserByParam" resultType="long">
+        SELECT COUNT(*) FROM t_user
     </select>
 </mapper>
