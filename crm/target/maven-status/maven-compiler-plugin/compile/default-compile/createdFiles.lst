@@ -10,6 +10,7 @@ com\kaishengit\dto\FlashMessage.class
 com\kaishengit\service\ShiroRealm.class
 com\kaishengit\mapper\UserMapper.class
 com\kaishengit\exception\NotFoundException.class
+com\kaishengit\controller\AdminController.class
 com\kaishengit\controller\HomeController.class
 com\kaishengit\mapper\UserLogMapper.class
 com\kaishengit\controller\UserController.class

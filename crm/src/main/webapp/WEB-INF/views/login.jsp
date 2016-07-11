@@ -54,7 +54,7 @@
         </c:if>
         <form action="/" method="post" >
             <div id="username" class="form-group has-feedback ipt" style="border: #00ab1b 2px solid;">
-                <input type="text" class="form-control" name="username" placeholder="账号">
+                <input type="text" class="form-control" autofocus name="username" placeholder="账号">
                 <span class="glyphicon glyphicon-user form-control-feedback"></span>
             </div>
             <div id="password" class="form-group has-feedback ipt" style="border: #00ab1b 2px solid;">

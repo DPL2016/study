@@ -61,4 +61,31 @@ public class UserService {
         param.put("userId",ShiroUtil.getCurrentUserID());
         return userLogMapper.countByParam(param);
     }
+
+    public List<User> findByParam(Map<String, Object> param) {
+        return userMapper.findByParam(param);
+    }
+
+    public Long countUser() {
+        return userMapper.countUser();
+    }
+
+    public Long countByParam() {
+        return userMapper.countByParam();
+    }
+
+
+    public List<Role> findAllRole() {
+        return roleMapper.findAllRole();
+    }
+
+    public void saveUser(User user) {
+        user.setEnable(true);
+        user.setPassword(DigestUtils.md5Hex(user.getPassword()));
+        userMapper.save(user);
+    }
+
+    public User findUserByUserName(String username) {
+        return userMapper.findUserByUserName(username);
+    }
 }
