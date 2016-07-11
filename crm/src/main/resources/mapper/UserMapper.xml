@@ -40,4 +40,8 @@
     <select id="findUserByUserName" resultType="User">
         SELECT * FROM t_user WHERE username = #{username}
     </select>
+
+    <select id="findById" resultType="User">
+        SELECT * FROM t_user WHERE id = #{id}
+    </select>
 </mapper>

@@ -5,18 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ea4730f-325e-405f-8e14-7de91de0cddb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/controller/AdminController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/mapper/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kaishengit/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/kaishengit/service/UserService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/admin/userlist_jsp.class" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/admin/userlist_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.class" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm2" afterPath="$PROJECT_DIR$/../ssm2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/AdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/RoleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/RoleMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kaishengit/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/kaishengit/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userlist.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userlist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-07-11" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2016-07-11" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/admin/userlist_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/admin/userlist_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/home_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/views/login_jsp.java" />
     </list>
     <ignored path="ssm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,15 +92,13 @@
     <favorites_list name="ssm" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="userlist.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userlist.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3030305">
-              <caret line="96" column="83" selection-start-line="96" selection-start-column="83" selection-end-line="96" selection-end-column="83" />
-              <folding>
-                <element signature="e#6500#8200#0#HTML" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-12.757576">
+              <caret line="243" column="50" selection-start-line="243" selection-start-column="50" selection-end-line="243" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,10 +107,25 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+              <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kaisheng_crm.t_user" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/aa827d16/db46e39e-43cd-48c1-9373-a7441f900321/kaisheng_crm.t_user">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -113,10 +134,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+              <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
               <folding>
-                <element signature="e#2250#2251#0" expanded="true" />
-                <element signature="e#2297#2298#0" expanded="true" />
                 <element signature="e#2524#2525#0" expanded="true" />
                 <element signature="e#2586#2587#0" expanded="true" />
               </folding>
@@ -128,26 +147,25 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4863388">
-              <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+            <state vertical-scroll-proportion="-14.454545">
+              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
               <folding>
-                <marker date="1468215021851" expanded="true" signature="302:351" placeholder="SELECT * FRO... t_user" />
-                <marker date="1468215021851" expanded="true" signature="404:512" placeholder="UPDATE t_use... " />
-                <marker date="1468215021851" expanded="true" signature="583:723" placeholder="SELECT t_use... t_user" />
-                <marker date="1468215021851" expanded="true" signature="583:995" placeholder="SELECT t_use... t_user" />
-                <marker date="1468215021851" expanded="true" signature="1064:1091" placeholder="SELECT COUNT... t_user" />
-                <marker date="1468215021851" expanded="true" signature="1163:1190" placeholder="SELECT COUNT... t_user" />
-                <marker date="1468215021851" expanded="true" signature="1443:1599" placeholder="INSERT INTO t_user" />
-                <marker date="1468215021851" expanded="true" signature="1678:1727" placeholder="SELECT * FRO... t_user" />
+                <marker date="1468226672387" expanded="true" signature="302:351" placeholder="SELECT * FRO... t_user" />
+                <marker date="1468226672387" expanded="true" signature="404:512" placeholder="UPDATE t_use... " />
+                <marker date="1468226672387" expanded="true" signature="583:995" placeholder="SELECT t_use... t_user" />
+                <marker date="1468226672387" expanded="true" signature="1064:1091" placeholder="SELECT COUNT... t_user" />
+                <marker date="1468226672387" expanded="true" signature="1443:1599" placeholder="INSERT INTO t_user" />
+                <marker date="1468226672387" expanded="true" signature="1678:1727" placeholder="SELECT * FRO... t_user" />
+                <marker date="1468226672387" expanded="true" signature="1796:1833" placeholder="SELECT * FRO... t_user" />
               </folding>
             </state>
           </provider>
@@ -229,11 +247,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/static/dist/css/AdminLTE.min.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/RoleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userlist.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userlist.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kaishengit/controller/AdminController.java" />
       </list>
     </option>
   </component>
@@ -266,10 +284,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="12" />
-    <option name="width" value="1364" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1397,6 +1415,7 @@
       <workItem from="1468052436627" duration="243000" />
       <workItem from="1468117966440" duration="99000" />
       <workItem from="1468203327619" duration="10699000" />
+      <workItem from="1468226086727" duration="1657000" />
     </task>
     <servers />
   </component>
@@ -1424,7 +1443,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115042000" />
+    <option name="totallyTimeSpent" value="116699000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1436,14 +1455,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="12" width="1364" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5030349" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5882353" sideWeight="0.50460124" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1452,12 +1471,12 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23082823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26993865" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26928896" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5889262" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58756137" sideWeight="0.49539876" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1519,13 +1538,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19210978">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/exception/NotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28">
@@ -1800,7 +1812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.787879">
           <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1816,10 +1827,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41947564">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <marker date="1468209212461" expanded="true" signature="289:324" placeholder="SELECT * FRO... t_role" />
-            <marker date="1468209212461" expanded="true" signature="395:416" placeholder="SELECT * FRO... t_role" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1835,20 +1843,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.41947564">
           <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/aa827d16/db46e39e-43cd-48c1-9373-a7441f900321/kaisheng_crm.t_user_log">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1860,22 +1866,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userlist.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3030305">
-          <caret line="96" column="83" selection-start-line="96" selection-start-column="83" selection-end-line="96" selection-end-column="83" />
-          <folding>
-            <element signature="e#6500#8200#0#HTML" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        <state vertical-scroll-proportion="-14.454545">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1468226672387" expanded="true" signature="302:351" placeholder="SELECT * FRO... t_user" />
+            <marker date="1468226672387" expanded="true" signature="404:512" placeholder="UPDATE t_use... " />
+            <marker date="1468226672387" expanded="true" signature="583:995" placeholder="SELECT t_use... t_user" />
+            <marker date="1468226672387" expanded="true" signature="1064:1091" placeholder="SELECT COUNT... t_user" />
+            <marker date="1468226672387" expanded="true" signature="1443:1599" placeholder="INSERT INTO t_user" />
+            <marker date="1468226672387" expanded="true" signature="1678:1727" placeholder="SELECT * FRO... t_user" />
+            <marker date="1468226672387" expanded="true" signature="1796:1833" placeholder="SELECT * FRO... t_user" />
           </folding>
         </state>
       </provider>
@@ -1883,38 +1893,42 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+          <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
           <folding>
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
             <element signature="e#2524#2525#0" expanded="true" />
             <element signature="e#2586#2587#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userlist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state vertical-scroll-proportion="-12.757576">
+          <caret line="243" column="50" selection-start-line="243" selection-start-column="50" selection-end-line="243" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kaishengit/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4863388">
-          <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
           <folding>
-            <marker date="1468215021851" expanded="true" signature="302:351" placeholder="SELECT * FRO... t_user" />
-            <marker date="1468215021851" expanded="true" signature="404:512" placeholder="UPDATE t_use... " />
-            <marker date="1468215021851" expanded="true" signature="583:723" placeholder="SELECT t_use... t_user" />
-            <marker date="1468215021851" expanded="true" signature="583:995" placeholder="SELECT t_use... t_user" />
-            <marker date="1468215021851" expanded="true" signature="1064:1091" placeholder="SELECT COUNT... t_user" />
-            <marker date="1468215021851" expanded="true" signature="1163:1190" placeholder="SELECT COUNT... t_user" />
-            <marker date="1468215021851" expanded="true" signature="1443:1599" placeholder="INSERT INTO t_user" />
-            <marker date="1468215021851" expanded="true" signature="1678:1727" placeholder="SELECT * FRO... t_user" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/aa827d16/db46e39e-43cd-48c1-9373-a7441f900321/kaisheng_crm.t_user">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
