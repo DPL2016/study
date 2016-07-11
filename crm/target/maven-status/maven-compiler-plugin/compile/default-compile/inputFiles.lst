@@ -8,10 +8,11 @@ E:\webtest\idea\crm\src\main\java\com\kaishengit\util\Page.java
 E:\webtest\idea\crm\src\main\java\com\kaishengit\service\UserService.java
 E:\webtest\idea\crm\src\main\java\com\kaishengit\controller\AdminController.java
 E:\webtest\idea\crm\src\main\java\com\kaishengit\pojo\UserLog.java
+E:\webtest\idea\crm\src\main\java\com\kaishengit\dto\JSONResult.java
 E:\webtest\idea\crm\src\main\java\com\kaishengit\mapper\UserLogMapper.java
 E:\webtest\idea\crm\src\main\java\com\kaishengit\mapper\UserMapper.java
-E:\webtest\idea\crm\src\main\java\com\kaishengit\util\ShiroUtil.java
 E:\webtest\idea\crm\src\main\java\com\kaishengit\pojo\Role.java
+E:\webtest\idea\crm\src\main\java\com\kaishengit\util\ShiroUtil.java
 E:\webtest\idea\crm\src\main\java\com\kaishengit\util\Strings.java
 E:\webtest\idea\crm\src\main\java\com\kaishengit\dto\DataTablesResult.java
 E:\webtest\idea\crm\src\main\java\com\kaishengit\service\ShiroRealm.java
