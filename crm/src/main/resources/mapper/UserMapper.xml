@@ -10,4 +10,26 @@
     <update id="updateUser">
         UPDATE t_user SET password=#{password},realname=#{realname},weixin=#{weixin},enable=#{enable} where id=#{id}
     </update>
+    <select id="findByParam" resultType="User">
+        SELECT t_user.*,t_role.id AS 'role.id',t_role.rolename AS 'role.rolename' FROM t_user
+        INNER JOIN t_role ON t_user.roleid = t_role.id
+        <where>
+            <if test="keyword!=null and keyword !=''">
+                username LIKE concat('%',#{keyword},'%') or realname like concat('%',#{keyword},'%')
+            </if>
+        </where>
+        order by t_user.id desc
+        limit ${start},${length}
+    </select>
+    <select id="countUser" resultType="long">
+        SELECT COUNT(*) FROM t_user
+    </select>
+    <select id="countByParam" resultType="long">
+        SELECT COUNT(*) FROM t_user
+        <where>
+            <if test="keyword!=null and keyword !=''">
+                username LIKE concat('%',#{keyword},'%') or realname like concat('%',#{keyword},'%')
+            </if>
+        </where>
+    </select>
 </mapper>

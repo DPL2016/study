@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>DwT CRM用户登录日志</title>
+    <title>DwT CRM员工管理</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -19,7 +19,6 @@
 
     <link rel="stylesheet" href="/static/dist/css/skins/skin-blue.min.css">
     <link rel="stylesheet" href="/static/plugins/datatables/css/dataTables.bootstrap.min.css">
-    <![endif]-->
 </head>
 
 <body class="hold-transition skin-blue  sidebar-mini">
@@ -38,17 +37,23 @@
                 <div class="box-header with-border">
                     <ol class="breadcrumb">
                         <li><a href="/home"><i class="fa fa-dashboard"></i>首页</a></li>
-                        <li class="active">登录日志</li>
+                        <li class="active">员工列表</li>
                     </ol>
-                    <h3 class="box-title">登录日志列表</h3>
+                    <h3 class="box-title">员工列表</h3>
 
                 </div>
                 <div class="box-body">
-                    <table class="table" id="logTable">
+                    <table class="table" id="userTable">
                         <thead>
                         <tr>
-                            <th>登录时间</th>
-                            <th>登录IP</th>
+                            <th>ID</th>
+                            <th>账号</th>
+                            <th>真实姓名</th>
+                            <th>微信</th>
+                            <th>角色</th>
+                            <th>状态</th>
+                            <th>创建时间</th>
+                            <th>操作</th>
                         </tr>
                         </thead>
                         <tbody></tbody>
@@ -68,19 +73,38 @@
 <script src="/static/dist/js/app.min.js"></script>
 <script src="/static/plugins/datatables/js/jquery.dataTables.min.js"></script>
 <script src="/static/plugins/datatables/js/dataTables.bootstrap.min.js"></script>
+<script src="/static/plugins/moment/moment.min.js"></script>
 <script>
     $(function () {
-        var dataTable = $("#logTable").DataTable({
-            searching: false,
+        var dataTable = $("#userTable").DataTable({
             serverSide: true,
-            ajax: "/user/log/load",
+            ajax: "/admin/user/load",
             ordering: false,
             "autoWidth": false,
             columns: [
-                {"data": "logintime"},
-                {"data": "loginip"}
+                {"data": "id"},
+                {"data": "username"},
+                {"data": "realname"},
+                {"data": "weixin"},
+                {"data": "role.rolename"},
+                {"data": function(row){
+                    if (row.enable){
+                        return "<span class='label label-success'>正常</span>";
+                    }else {
+                        return "<span class='label label-success'>禁用</span>";
+                    }
+                }},
+                {"data": function(row){
+                    var time = row.createtime;
+                    var day = moment(time);
+                    return day.format("YYYY-MM-DD HH:mm");
+                }},
+                {"data": function(){
+                    return "";
+                }}
             ],
             "language": {
+                "search": "请输入员工姓名或登录账号:",
                 "zeroRecords": "没有匹配的数据",
                 "lengthMenu": "显示 _MENU_ 条数据",
                 "info": "显示从 _START_ 到 _END_ 条数据 共 _TOTAL_ 条数据",
