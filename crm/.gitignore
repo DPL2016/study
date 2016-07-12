@@ -1,0 +1,8 @@
+ssm.iml
+target/
+.idea/
+.gitignore
+src/test/
+target/apache-tomcat-maven-plugin/
+target/generated-sources/
+target/tomcat/webapps/

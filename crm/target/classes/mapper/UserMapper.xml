@@ -8,7 +8,23 @@
     </select>
 
     <update id="updateUser">
-        UPDATE t_user SET password=#{password},realname=#{realname},weixin=#{weixin},enable=#{enable} where id=#{id}
+        UPDATE t_user
+        <set>
+             <if test="password != null and password != ''">
+                 password = #{password},
+             </if>
+             <if test="realname != null and realname != ''">
+                 realname = #{realname},
+             </if>
+             <if test="weixin != null and weixin != ''">
+                 weixin = #{weixin},
+             </if>
+             <if test="roleid != null and roleid != ''">
+                 roleid = #{roleid},
+             </if>
+             enable=#{enable}
+         </set>
+        where id = #{id}
     </update>
     <select id="findByParam" resultType="User">
         SELECT t_user.*,t_role.id AS 'role.id',t_role.rolename AS 'role.rolename' FROM t_user
@@ -39,5 +55,9 @@
 
     <select id="findUserByUserName" resultType="User">
         SELECT * FROM t_user WHERE username = #{username}
+    </select>
+
+    <select id="findById" resultType="User">
+        SELECT * FROM t_user WHERE id = #{id}
     </select>
 </mapper>

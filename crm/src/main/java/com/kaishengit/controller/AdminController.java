@@ -2,16 +2,14 @@ package com.kaishengit.controller;
 
 import com.google.common.collect.Maps;
 import com.kaishengit.dto.DataTablesResult;
+import com.kaishengit.dto.JSONResult;
 import com.kaishengit.pojo.Role;
 import com.kaishengit.pojo.User;
 import com.kaishengit.service.UserService;
 import com.kaishengit.util.Strings;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.inject.Inject;
 import javax.servlet.http.HttpServletRequest;
@@ -71,6 +69,11 @@ public class AdminController {
         return "success";
     }
 
+    /**
+     * 验证用户名是否存在
+     * @param username
+     * @return
+     */
     @RequestMapping(value ="/user/checkusername",method = RequestMethod.GET)
     @ResponseBody
     public String checkUserName(String username){
@@ -79,6 +82,41 @@ public class AdminController {
             return "true";
         }else {
             return "false";
+        }
+    }
+
+    /**
+     * 重置用户密码
+     * @param id
+     * @return
+     */
+    @RequestMapping(value = "users/resetpassword",method = RequestMethod.POST)
+    @ResponseBody
+    public String resetPassword(Integer id){
+        userService.resetUserPassword(id);
+        return "success";
+    }
+
+    /**
+     *编辑用户
+     * @param user
+     * @return
+     */
+    @RequestMapping(value = "/users/edit",method = RequestMethod.POST)
+    @ResponseBody
+    public String editUser(User user){
+        userService.editUser(user);
+        return "success";
+    }
+
+    @RequestMapping(value ="/users/{id:\\d+}.json",method = RequestMethod.GET)
+    @ResponseBody
+    public JSONResult showUser(@PathVariable Integer id){
+        User user = userService.findUserById(id);
+        if (user==null){
+            return new JSONResult("找不到"+id+"对应的用户");
+        }else {
+            return new JSONResult(user);
         }
     }
 }

@@ -1,4 +1,4 @@
-<%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 
@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CRM主页</title>
+    <title>403</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -15,34 +15,35 @@
     <link rel="stylesheet" href="/static/plugins/fontawesome/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="/static/plugins/ionicons-2.0.1/css/ionicons.min.css">
+
     <!-- Theme style -->
     <link rel="stylesheet" href="/static/dist/css/AdminLTE.min.css">
 
     <link rel="stylesheet" href="/static/dist/css/skins/skin-blue.min.css">
-
+    <![endif]-->
 </head>
 
-<body class="hold-transition skin-blue  sidebar-mini" >
+<body class="hold-transition skin-blue  sidebar-mini">
 <div class="wrapper">
 
 
-    <%@include file="include/header.jsp"%>
-    <jsp:include page="include/leftside.jsp">
-        <jsp:param name="menu" value="home"/>
-    </jsp:include>
+    <%@include file="../include/header.jsp"%>
+    <%@include file="../include/leftside.jsp"%>
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper" style="background-image: url(/static/dist/img/asanoha-400px.png)">
         <!-- Content Header (Page header) -->
-        <section class="content-header" style="color: #56ACE2">
+        <section class="content-header">
             <h1>
-                首页
-                <small style="color: #00ab1b">客户关系管理系统</small>
+                403:权限不足
             </h1>
-
+            <ol class="breadcrumb">
+                <li><a href="/home"><i class="fa fa-dashboard"></i>主页</a></li>
+                <li class="active">403</li>
+            </ol>
         </section>
 
         <!-- Main content -->
-        <section class="content" >
+        <section class="content">
 
             <!-- Your Page Content Here -->
 

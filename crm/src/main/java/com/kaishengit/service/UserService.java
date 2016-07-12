@@ -88,4 +88,24 @@ public class UserService {
     public User findUserByUserName(String username) {
         return userMapper.findUserByUserName(username);
     }
+
+    /**
+     * 重置用户密码
+     * @param id 用户id
+     */
+    public void resetUserPassword(Integer id) {
+        User user = userMapper.findById(id);
+        if (user!=null){
+            user.setPassword(DigestUtils.md5Hex("000000"));
+            userMapper.updateUser(user);
+        }
+    }
+
+    public void editUser(User user) {
+        userMapper.updateUser(user);
+    }
+
+    public User findUserById(Integer id) {
+        return userMapper.findById(id);
+    }
 }

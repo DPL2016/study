@@ -65,4 +65,8 @@ public class HomeController {
         return "home";
     }
 
+    @RequestMapping("/403")
+    public String error(){
+        return "error/403";
+    }
 }
