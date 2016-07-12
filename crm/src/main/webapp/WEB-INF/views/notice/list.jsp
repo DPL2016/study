@@ -1,4 +1,4 @@
-<%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 
@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CRM主页</title>
+    <title>CRM公告列表</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -15,34 +15,47 @@
     <link rel="stylesheet" href="/static/plugins/fontawesome/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="/static/plugins/ionicons-2.0.1/css/ionicons.min.css">
+
     <!-- Theme style -->
     <link rel="stylesheet" href="/static/dist/css/AdminLTE.min.css">
 
     <link rel="stylesheet" href="/static/dist/css/skins/skin-blue.min.css">
-
+    <![endif]-->
 </head>
 
-<body class="hold-transition skin-blue  sidebar-mini" >
+<body class="hold-transition skin-blue  sidebar-mini">
 <div class="wrapper">
 
 
-    <%@include file="include/header.jsp"%>
-    <jsp:include page="include/leftside.jsp">
-        <jsp:param name="menu" value="home"/>
+    <%@include file="../include/header.jsp"%>
+    <jsp:include page="../include/leftside.jsp">
+        <jsp:param name="menu" value="notice"/>
     </jsp:include>
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper" style="background-image: url(/static/dist/img/asanoha-400px.png)">
         <!-- Content Header (Page header) -->
-        <section class="content-header" style="color: #56ACE2">
-            <h1>
-                首页
-                <small style="color: #00ab1b">客户关系管理系统</small>
-            </h1>
+        <section class="content">
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i>主页</a></li>
+                <li class="active">公告列表</li>
+            </ol>
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">公告列表</h3>
+                    <shiro:hasRole name="经理">
+                        <div class="box-tools pull-right">
+                            <a href="/notice/new" class="btn btn-xs btn-success"><i class="fa fa-pencil"></i></a>
+                        </div>
+                    </shiro:hasRole>
+                </div>
+                <div class="box-body">
 
+                </div>
+            </div>
         </section>
 
         <!-- Main content -->
-        <section class="content" >
+        <section class="content">
 
             <!-- Your Page Content Here -->
 
