@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="/static/dist/css/AdminLTE.min.css">
 
     <link rel="stylesheet" href="/static/dist/css/skins/skin-blue.min.css">
+    <link rel="stylesheet" href="/static/plugins/datatables/css/dataTables.bootstrap.min.css">
     <![endif]-->
 </head>
 
@@ -49,7 +50,19 @@
                     </shiro:hasRole>
                 </div>
                 <div class="box-body">
-
+                    <table class="table" about="noticeTable">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>用户ID</th>
+                            <th>真实姓名</th>
+                            <th>标题</th>
+                            <th>时间</th>
+                            <th>详细信息</th>
+                        </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
                 </div>
             </div>
         </section>
@@ -75,6 +88,37 @@
 <!-- AdminLTE App -->
 <script src="/static/dist/js/app.min.js"></script>
 
+<script src="/static/plugins/datatables/js/jquery.dataTables.min.js"></script>
+<script src="/static/plugins/datatables/js/dataTables.bootstrap.min.js"></script>
+
+<script>
+    $(function(){
+        var dataTable = $("#noticeTable").DataTable({
+            serverSide:true,
+            ajax:"/notice/load",
+            ordering:false,
+            "autoWidth":false,
+            columns:[
+
+            ],
+            "language": { //定义中文
+                "search": "请输入姓名:",
+                "zeroRecords": "没有匹配的数据",
+                "lengthMenu": "显示 _MENU_ 条数据",
+                "info": "显示从 _START_ 到 _END_ 条数据 共 _TOTAL_ 条数据",
+                "infoFiltered": "(从 _MAX_ 条数据中过滤得来)",
+                "loadingRecords": "加载中...",
+                "processing": "处理中...",
+                "paginate": {
+                    "first": "首页",
+                    "last": "末页",
+                    "next": "下一页",
+                    "previous": "上一页"
+                }
+            }
+        });
+    });
+</script>
 </body>
 </html>
 
