@@ -24,8 +24,11 @@ public class SpringRedisTestCase {
     public void testGet(){
         System.out.println(redisTemplate.opsForValue().get("Spring"));
     }
+
     @Test
     public void testIncr(){
-        
+        redisTemplate.opsForValue().increment("num",2);
+        System.out.println(redisTemplate.opsForValue().get("num"));
     }
+
 }
