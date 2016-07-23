@@ -1,5 +1,6 @@
 package com.kaishengit;
 
+import com.kaishengit.pojo.User;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -82,6 +83,7 @@ public class JedisTestCase {
             System.out.println(str);
         }
     }
+
 
 
 

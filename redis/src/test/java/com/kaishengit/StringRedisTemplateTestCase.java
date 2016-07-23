@@ -1,5 +1,7 @@
 package com.kaishengit;
 
+import com.google.gson.Gson;
+import com.kaishengit.pojo.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,4 +33,15 @@ public class StringRedisTemplateTestCase {
         }
     }
 
+    @Test
+    public void testSetUser(){
+        User user = new User(101,"zhangsan",100F);
+        stringRedisTemplate.opsForValue().set("user:100",new Gson().toJson(user));
+    }
+    @Test
+    public void testGetUser() {
+        String json = stringRedisTemplate.opsForValue().get("user:100");
+        User user = new Gson().fromJson(json,User.class);
+        System.out.println(user);
+    }
 }
